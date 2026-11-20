@@ -1,0 +1,89 @@
+diff --git a/AGENTS.md b/AGENTS.md
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -34,3 +34,16 @@ Full-post review gallery at `https://example.com/social-review/` (noind
+ One AI-made post a day: `PLAN-DAILY.md` (procedure, quality bar, tools, launch command). Posts go in `posts/daily-YYYY-MM-DD-<slug>/`, the history in `daily/LOG.md`, the worker prompt in `daily/PROMPT-TEMPLATE.md`. The review site shows them in the **Daily** lane automatically. Studio posts now use the live **Mosaic** brand (ink blue + Alegreya), not the brick/Bitter of DESIGN §2. Tools need Pillow from `~/.cache/social-posts-venv` (PLAN-DAILY §10).
+ 
+ **Trigger is a 09:00 timer (wired 2026-10-26, job 140):** user `social-daily.timer` on this machine (the server) runs `tools/daily_launch.py` at 09:00 Europe/Skopje. It starts one Claude worker (`--bot optibot --memory-max 6G`, no `--inbox`), unless today's post exists, today's job is already running, or the newest earlier post has no keep/edit/drop verdict in `daily/LOG.md`. Skips go to `daily/launch.log`. Unit copies: `tools/systemd/`. Pause: `systemctl --user disable --now social-daily.timer`. "daily post" on Telegram still works for an extra or steered post (PLAN-DAILY §8).
++
++## Post Studio exports (rule proposed by post-studio Phase 5)
++
++<!-- post-studio-export: allowed -->
++Post Studio (`../post-studio`, Nikola's local design canvas) may write a finished post into `posts/<slug>/`. Only with `pstudio export <project> --to posts/<slug> --social-posts`, and the CLI enforces all of this:
++
++- **Only what Nikola approved.** The revision must be one he approved in the Post Studio editor (the default is `--rev last-approved`). Without an approval it refuses.
++- **Only on-palette posts.** The post must pass its lane's palette check. Post Studio's check gives the same verdicts as `tools/check_palette.py` on real posts (tested in post-studio). It also refuses a post without a brand kit.
++- **Only its own files.** It writes `post.svg`, `post.png`, `post.jpg`, `post-li.*` (a 1080×1350 frame), `figma/*.svg`, `post-studio.json` (the design, so it can be reopened) and `export.json`. It writes `copy.json` only when the folder has none or Post Studio wrote it before. It never touches `brief.md`, captions, `alt.txt`, `review-note.txt` or art sources. A folder with a `post.svg` that Post Studio did not write is refused unless `--force`.
++- **Edit in Post Studio, not here.** A later approved export overwrites `post.*`. Captions and `alt.txt` stay hand-written, as for every post.
++- It only drops files. Posting, poster inboxes and the review-site rebuild stay as described above. Run `python3 review-site/build.py` after an export; a `lux-*` / `kites-*` / `studio-*` folder with `post-studio.json` and `post.jpg` shows up in its lane.
++
++Remove the marker line above to switch exports off again.
+diff --git a/daily/PROMPT-TEMPLATE.md b/daily/PROMPT-TEMPLATE.md
+--- a/daily/PROMPT-TEMPLATE.md
++++ b/daily/PROMPT-TEMPLATE.md
+@@ -20,6 +20,7 @@ Follow PLAN-DAILY §4 "The daily loop" steps 1–8 for **one** post dated {DATE}
+ - open every PNG you make with the Read tool, at full size and at 360 px, and fix what fails the §6 quality bar
+ - `python3 review-site/build.py` (the daily lane picks the folder up automatically)
+ - add one row to `daily/LOG.md`
++- optional, Post Studio: open the post in Post Studio so Nikola can tweak it on the canvas. From the workspace root run `post-studio/apps/cli/bin/pstudio import social-posts social-posts/posts/daily-{DATE}-<slug> --json` (if `curl -sf http://127.0.0.1:3472/v1/health` fails, start `post-studio/apps/cli/bin/pstudio serve` in the background first and stop it when you are done). Put the returned editor link in the report. Never send tokens or passwords. If the import fails, say so in the report and carry on: the post folder stays the deliverable.
+ - write `reports/daily-{DATE}.md`: under 60 lines, what was made, the decisions, the self-score from §6 and the open questions. Append the open questions to `review/QUESTIONS.md` too.
+ 
+ ## Do not
+diff --git a/review-site/build.py b/review-site/build.py
+--- a/review-site/build.py
++++ b/review-site/build.py
+@@ -26,6 +26,13 @@ LANES = [
+ ]
+ 
+ 
++# Post Studio exports (AGENTS.md "Post Studio exports"): a <lane>-* folder with post-studio.json
++# and post.jpg that is not listed above joins its lane, after the listed posts.
++for key, _name, _note, slugs in LANES:
++    slugs.extend(sorted(d.name for d in (ROOT / "posts").glob(f"{key}-*")
++                        if d.name not in slugs and (d / "post-studio.json").exists() and (d / "post.jpg").exists()))
++
++
+ # Daily experiment (PLAN-DAILY.md): every posts/daily-YYYY-MM-DD-<slug>/ that has a post.jpg,
+ # newest first. Shown above the pack lanes so the latest post is the first thing on the page.
+ DAILY = sorted((d.name for d in (ROOT / "posts").glob("daily-*") if (d / "post.jpg").exists()), reverse=True)
+@@ -70,6 +77,8 @@ def card(slug, n):
+         parts.insert(0, caption_block("Белешка за преглед" if mk else "Why this post" if slug.startswith(("daily-", "motion-")) else "Pilot", note))
+ 
+     li_png = ROOT / "review" / "linkedin" / f"{slug}.png"
++    if not li_png.exists():
++        li_png = d / "post-li.png"  # Post Studio exports carry their LinkedIn frame in the folder
+     li_html = ""
+     if li_png.exists():
+         Image.open(li_png).convert("RGB").save(IMG / f"{slug}-li.jpg", "JPEG", quality=88)
+diff --git a/tools/check_palette.py b/tools/check_palette.py
+--- a/tools/check_palette.py
++++ b/tools/check_palette.py
+@@ -2,7 +2,7 @@
+ """Lane palette + single-accent check for SVGs (DESIGN §1.4, §2.1, §3.1, §4.1).
+ 
+ Usage: tools/check_palette.py LANE FILE.svg [--art]
+-  LANE   studio | lux | kites
++  LANE   studio | mosaic | lux | kites   (studio = the old brick pack; mosaic = live Mosaic, PLAN-DAILY §7)
+   --art  art-only SVG: no paper background required (transparent is fine);
+          the accent-group rule still applies.
+ 
+@@ -33,6 +33,19 @@ LANES = {
+             "#E3E6D8": "sage tint",
+         },
+     },
++    "mosaic": {
++        "paper": "#F6F2EA",
++        "accent": "#23487F",
++        "colors": {
++            "#F6F2EA": "paper",
++            "#1D2129": "ink",
++            "#555A63": "muted",
++            "#23487F": "ink blue (accent)",
++            "#E2E7EE": "tint",
++            "#6E7D95": "support",
++            "#86A6DE": "logo-mark blue (inside the mark only)",
++        },
++    },
+     "lux": {
+         "paper": "#FCFAF6",
+         "accent": "#AC1922",

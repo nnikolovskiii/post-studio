@@ -1,0 +1,43 @@
+{
+  "id": "kites",
+  "name": "Kites · AAC board",
+  "lane": "kites",
+  "description": "Kites native look. One pink object per frame: the tapped card or the spoken message.",
+  "sources": [
+    "social-posts/tools/check_palette.py → LANES[\"kites\"]",
+    "social-posts/research/DESIGN.md §4.1 Color (from Kites/native-ui-board/src/tokens.css) and the category washes table",
+    "social-posts/templates/TYPE-SCALE.md → Kites table",
+    "social-posts/templates/kites/ig-1080.svg (guides, baselines)"
+  ],
+  "checkPaletteLane": "kites",
+  "paper": "cream",
+  "accent": "pink",
+  "colors": [
+    { "name": "cream", "hex": "#FFFCF9", "label": "Cream", "source": "DESIGN §4.1 --cream; check_palette.py paper" },
+    { "name": "ink", "hex": "#3E3655", "label": "Ink", "source": "DESIGN §4.1 --ink" },
+    { "name": "muted", "hex": "#675F7A", "label": "Muted", "source": "DESIGN §4.1 --muted" },
+    { "name": "purple", "hex": "#7A56B8", "label": "Purple (brand)", "source": "DESIGN §4.1 --purple" },
+    { "name": "purple-deep", "hex": "#655196", "label": "Purple deep", "source": "DESIGN §4.1 --purple-deep" },
+    { "name": "pink", "hex": "#C4476E", "label": "Pink (accent)", "source": "DESIGN §4.1 --pink; check_palette.py accent", "note": "once per frame, inside the accent object" },
+    { "name": "border", "hex": "#ECE4EE", "label": "Border", "source": "DESIGN §4.1 --border" },
+    { "name": "amber-wash", "hex": "#FFF4E0", "label": "Amber wash (people)", "source": "DESIGN §4.1 category washes" },
+    { "name": "amber-edge", "hex": "#B87A28", "label": "Amber edge", "source": "DESIGN §4.1 category washes", "note": "strokes and shapes only, never text" },
+    { "name": "teal-wash", "hex": "#E2F4F6", "label": "Teal wash (actions)", "source": "DESIGN §4.1 category washes" },
+    { "name": "teal-edge", "hex": "#2E8C96", "label": "Teal edge", "source": "DESIGN §4.1 category washes", "note": "strokes and shapes only, never text" },
+    { "name": "blue-header", "hex": "#DDEBFF", "label": "Blue header (things)", "source": "DESIGN §4.1 category washes" },
+    { "name": "pink-wash", "hex": "#FDE7EE", "label": "Pink wash (feelings)", "source": "DESIGN §4.1 category washes" },
+    { "name": "purple-wash", "hex": "#F3ECFC", "label": "Purple wash (describing)", "source": "DESIGN §4.1 category washes" },
+    { "name": "white", "hex": "#FFFFFF", "label": "White", "source": "check_palette.py kites colors", "note": "text on pink only" }
+  ],
+  "aliases": { "accent": "pink", "paper": "cream", "background": "cream" },
+  "type": [
+    { "name": "kicker", "label": "Kicker", "font": "Rubik", "weight": 500, "size": 30, "lineHeight": 1.2, "fill": "muted", "min": 30, "baseline": { "square": 96 }, "source": "TYPE-SCALE Kites: Rubik 500 30, muted" },
+    { "name": "headline", "label": "Headline", "font": "Rubik", "weight": 700, "size": 72, "lineHeight": 1.1111, "fill": "ink", "min": 56, "maxLines": { "square": 2 }, "baseline": { "square": 776 }, "source": "TYPE-SCALE Kites: Rubik 700 72/80 (min 56/64), ink; one word may be purple" },
+    { "name": "sub", "label": "Body", "font": "Rubik", "weight": 500, "size": 34, "lineHeight": 1.2941, "fill": "muted", "min": 30, "baseline": { "square": 920 }, "source": "TYPE-SCALE Kites: Rubik 500 34/44, 1 line, muted" },
+    { "name": "card-label", "label": "Card label", "font": "Rubik", "weight": 600, "size": 30, "lineHeight": 1.2, "fill": "ink", "case": "lower", "min": 30, "source": "TYPE-SCALE Kites: Rubik 600 30, lowercase, centred" },
+    { "name": "message-bar", "label": "Message bar", "font": "Rubik", "weight": 600, "size": 40, "lineHeight": 1.2, "fill": "ink", "min": 30, "source": "TYPE-SCALE Kites: Rubik 600 40, white on pink (accent) or ink on cream" },
+    { "name": "footer", "label": "Footer", "font": "Rubik", "weight": 600, "size": 28, "lineHeight": 1.2, "fill": "purple-deep", "min": 24, "baseline": { "square": 1008 }, "source": "TYPE-SCALE Kites: Rubik 600 28, purple deep, x 152" }
+  ],
+  "guides": { "1080x1080": "kites/ig-1080", "1080x1350": "lane/li-1350", "1080x1920": "lane/story-1920" },
+  "rules": { "accent": "one accent object per frame; the accent colour only inside it (DESIGN §1.4)", "flat": "no gradients, filters or blend modes" }
+}

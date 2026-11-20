@@ -1,0 +1,13 @@
+{
+  "kicker": "Како функционира",
+  "headline": [
+    {"spans": [{"text": "Три чекорчиња"}]},
+    {"spans": [{"text": "до порака."}]}
+  ],
+  "sub": "Изберете картички и слушнете ги по ред.",
+  "chip": null,
+  "source": null,
+  "footer": "Kites · app.demo.example",
+  "emphasis": null,
+  "linkedin": null
+}

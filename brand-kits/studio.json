@@ -1,0 +1,34 @@
+{
+  "id": "studio",
+  "name": "Web shop (old pack, brick + Bitter)",
+  "lane": "studio",
+  "description": "The original 9-post Studio pack. Kept for those posts only; new studio posts use the Mosaic kit (PLAN-DAILY §7).",
+  "sources": [
+    "social-posts/tools/check_palette.py → LANES[\"studio\"]",
+    "social-posts/research/DESIGN.md §2.1 Color (landing1 tokens of the old pack)",
+    "social-posts/templates/TYPE-SCALE.md → Studio table",
+    "social-posts/templates/studio/ig-1080.svg (guides, baselines)"
+  ],
+  "checkPaletteLane": "studio",
+  "paper": "paper",
+  "accent": "brick",
+  "colors": [
+    { "name": "paper", "hex": "#F5EFE4", "label": "Paper", "source": "check_palette.py studio paper; DESIGN §2.1" },
+    { "name": "ink", "hex": "#221F1B", "label": "Ink", "source": "check_palette.py studio; DESIGN §2.1" },
+    { "name": "muted-ink", "hex": "#5E594F", "label": "Muted ink", "source": "check_palette.py studio; DESIGN §2.1" },
+    { "name": "brick", "hex": "#A93C23", "label": "Brick (accent)", "source": "check_palette.py studio accent; DESIGN §2.1", "note": "once per frame, inside the accent object" },
+    { "name": "sage", "hex": "#6F7D63", "label": "Sage", "source": "check_palette.py studio; DESIGN §2.1" },
+    { "name": "sage-tint", "hex": "#E3E6D8", "label": "Sage tint", "source": "check_palette.py studio; DESIGN §2.1" }
+  ],
+  "aliases": { "accent": "brick", "muted": "muted-ink", "background": "paper" },
+  "type": [
+    { "name": "kicker", "label": "Kicker", "font": "Source Sans 3", "weight": 600, "size": 30, "lineHeight": 1.2, "fill": "muted-ink", "min": 30, "baseline": { "square": 96 }, "source": "TYPE-SCALE Studio: Source Sans 3 600 30, muted ink" },
+    { "name": "headline", "label": "Headline", "font": "Bitter", "weight": 700, "size": 72, "lineHeight": 1.1111, "fill": "ink", "min": 56, "maxLines": { "square": 2 }, "baseline": { "square": 792 }, "source": "TYPE-SCALE Studio: Bitter 700 72/80 (min 56/64), ink; one word may be brick" },
+    { "name": "sub", "label": "Sub", "font": "Source Sans 3", "weight": 600, "size": 36, "lineHeight": 1.2778, "fill": "ink", "min": 30, "baseline": { "square": 936 }, "source": "TYPE-SCALE Studio: Source Sans 3 600 36/46, 1 line, ink" },
+    { "name": "chip", "label": "Chip label", "font": "Source Sans 3", "weight": 600, "size": 30, "lineHeight": 1.2, "fill": "paper", "min": 30, "source": "TYPE-SCALE Studio: chip label 600 30, paper on brick (lives in the accent object)" },
+    { "name": "label", "label": "Label in art", "font": "Source Sans 3", "weight": 600, "size": 30, "lineHeight": 1.2, "fill": "ink", "min": 30, "source": "TYPE-SCALE Studio: label in art 600 30, ink" },
+    { "name": "footer", "label": "Footer", "font": "Source Sans 3", "weight": 600, "size": 26, "lineHeight": 1.2, "fill": "muted-ink", "min": 24, "baseline": { "square": 1008 }, "source": "TYPE-SCALE Studio: footer 600 26, muted ink, x 72" }
+  ],
+  "guides": { "1080x1080": "studio/ig-1080", "1080x1350": "lane/li-1350", "1080x1920": "lane/story-1920" },
+  "rules": { "accent": "one accent object per frame; the accent colour only inside it (DESIGN §1.4)", "flat": "no gradients, filters or blend modes" }
+}

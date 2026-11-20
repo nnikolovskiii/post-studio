@@ -1,0 +1,32 @@
+[
+ {
+  "id": "lux/post",
+  "kit": "lux",
+  "name": "LUX post · square + LinkedIn",
+  "file": "lux-post.json"
+ },
+ {
+  "id": "lux/square",
+  "kit": "lux",
+  "name": "LUX post · square only",
+  "file": "lux-square.json"
+ },
+ {
+  "id": "kites/square",
+  "kit": "kites",
+  "name": "Kites post · square",
+  "file": "kites-square.json"
+ },
+ {
+  "id": "studio/square",
+  "kit": "studio",
+  "name": "Web shop post · square (old pack)",
+  "file": "studio-square.json"
+ },
+ {
+  "id": "mosaic/square",
+  "kit": "mosaic",
+  "name": "Mosaic post · square",
+  "file": "mosaic-square.json"
+ }
+]

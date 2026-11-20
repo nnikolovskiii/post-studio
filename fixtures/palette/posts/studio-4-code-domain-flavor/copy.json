@@ -1,0 +1,14 @@
+{
+  "kicker": null,
+  "headline": [
+    {"spans": [{"text": "Кодот и доменот", "fill": "#F5EFE4"}]},
+    {"spans": [{"text": "се ", "fill": "#F5EFE4"}, {"text": "ваши.", "fill": "#F2D49A"}]}
+  ],
+  "sub": null,
+  "chip": null,
+  "source": null,
+  "footer": null,
+  "emphasis": null,
+  "linkedin": null,
+  "_note": "Not composed by tools/compose.py (no template). tools/make_studio4_flavor.py writes these strings straight into post.svg; keep the two in sync."
+}

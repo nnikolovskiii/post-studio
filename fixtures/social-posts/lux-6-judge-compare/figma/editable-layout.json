@@ -1,0 +1,5280 @@
+[
+  {
+    "name": "LUX / Square / DRAFT",
+    "width": 1080,
+    "height": 1080,
+    "items": [
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "0",
+          "y": "0",
+          "width": "1080",
+          "height": "1080",
+          "fill": "#FCFAF6",
+          "id": "rect-01"
+        }
+      },
+      {
+        "kind": "image",
+        "attrs": {
+          "id": "logo",
+          "x": "135",
+          "y": "10",
+          "width": "72",
+          "height": "72",
+          "preserveAspectRatio": "xMidYMid meet"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "220",
+          "y": "59",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "600",
+          "font-size": "27",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-01-copy"
+        },
+        "text": "LUX · demo.example",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "SemiBold"
+        },
+        "inkBounds": [
+          222.214,
+          38.858000000000004,
+          387.373,
+          59.324
+        ],
+        "advance": 257.016
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "945",
+          "y": "57",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "18",
+          "fill": "#655B56",
+          "text-anchor": "end",
+          "id": "text-02-copy"
+        },
+        "text": "ГЕНЕРИРАЊЕ НА МАКЕДОНСКИ",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          687.978,
+          44.22,
+          943.7579999999999,
+          59.7
+        ],
+        "advance": 259.2
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "135",
+          "y1": "88",
+          "x2": "945",
+          "y2": "88",
+          "stroke": "#E2DDD5",
+          "stroke-width": "2",
+          "id": "line-03"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "540",
+          "y": "144",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "600",
+          "font-size": "50",
+          "fill": "#190F0B",
+          "text-anchor": "middle",
+          "id": "text-03-copy"
+        },
+        "text": "Исти модели.",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "SemiBold"
+        },
+        "inkBounds": [
+          380.675,
+          109.1,
+          699.9250000000001,
+          151.0
+        ],
+        "advance": 326.85
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "540",
+          "y": "200",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "600",
+          "font-size": "50",
+          "fill": "#190F0B",
+          "text-anchor": "middle",
+          "id": "text-04-copy"
+        },
+        "text": "Различни оценки.",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "SemiBold"
+        },
+        "inkBounds": [
+          325.375,
+          165.1,
+          755.225,
+          207.0
+        ],
+        "advance": 437.45000000000005
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "540",
+          "y": "239",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "26",
+          "fill": "#655B56",
+          "text-anchor": "middle",
+          "id": "text-05-copy"
+        },
+        "text": "% добри одговори · повисоко е подобро",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          291.635,
+          219.5,
+          788.7810000000001,
+          244.2
+        ],
+        "advance": 499.798
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "282",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "20",
+          "fill": "#655B56",
+          "text-anchor": "start",
+          "id": "text-06-copy"
+        },
+        "text": "ОЦЕНУВАЧИ",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          135.88,
+          267.8,
+          241.62,
+          285.0
+        ],
+        "advance": 108.0
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "396",
+          "y": "267",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-04"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "422",
+          "y": "282",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "28",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-07-copy"
+        },
+        "text": "GPT-5.2",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          423.54,
+          262.12,
+          525.348,
+          282.336
+        ],
+        "advance": 105.0
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "672",
+          "cy": "273",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-05"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "692",
+          "y": "282",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "27",
+          "fill": "#305880",
+          "text-anchor": "start",
+          "id": "text-08-copy"
+        },
+        "text": "GPT-6 Luna · high",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          693.485,
+          261.912,
+          908.3779999999999,
+          287.724
+        ],
+        "advance": 218.349
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "320",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "23",
+          "fill": "#655B56",
+          "text-anchor": "start",
+          "id": "text-09-copy"
+        },
+        "text": "МОДЕЛ",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.288,
+          303.67,
+          202.459,
+          323.45
+        ],
+        "advance": 69.0
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "500",
+          "y": "320",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "23",
+          "fill": "#655B56",
+          "text-anchor": "middle",
+          "id": "text-10-copy"
+        },
+        "text": "0",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          494.112,
+          303.67,
+          505.88800000000003,
+          320.276
+        ],
+        "advance": 13.799999999999999
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "945",
+          "y": "320",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "23",
+          "fill": "#655B56",
+          "text-anchor": "end",
+          "id": "text-11-copy"
+        },
+        "text": "100%",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          890.8349999999999,
+          303.67,
+          944.747,
+          320.276
+        ],
+        "advance": 55.199999999999996
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "500",
+          "y1": "334",
+          "x2": "500",
+          "y2": "941",
+          "stroke": "#E2DDD5",
+          "stroke-width": "2",
+          "id": "line-06"
+        }
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "945",
+          "y1": "334",
+          "x2": "945",
+          "y2": "941",
+          "stroke": "#E2DDD5",
+          "stroke-width": "2",
+          "id": "line-07"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "358",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-12-copy"
+        },
+        "text": "GPT-6 Luna",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          340.96,
+          261.79200000000003,
+          358.288
+        ],
+        "advance": 127.488
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "904.95",
+          "y1": "350",
+          "x2": "789.25",
+          "y2": "350",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-08"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "898.95",
+          "y": "344",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-09"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "789.25",
+          "cy": "350",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-10"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "917.95",
+          "y": "357",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "openai/gpt-6-luna",
+          "data-judge": "gpt_5_2",
+          "data-score": "91.0",
+          "id": "text-13-openai-gpt-6-luna"
+        },
+        "text": "91",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          919.0500000000001,
+          341.38,
+          943.58,
+          357.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "776.25",
+          "y": "357",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "openai/gpt-6-luna",
+          "data-judge": "gpt_6_luna",
+          "data-score": "65.0",
+          "id": "text-14-openai-gpt-6-luna"
+        },
+        "text": "65",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          751.0160000000001,
+          341.644,
+          775.0840000000001,
+          357.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "390",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-15-copy"
+        },
+        "text": "Gemini 3 Flash Preview",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          372.144,
+          391.29600000000005,
+          390.288
+        ],
+        "advance": 256.92
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "900.5",
+          "y1": "382",
+          "x2": "669.1",
+          "y2": "382",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-11"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "894.5",
+          "y": "376",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-12"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "669.1",
+          "cy": "382",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-13"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "913.5",
+          "y": "389",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "google/gemini-3-flash-preview",
+          "data-judge": "gpt_5_2",
+          "data-score": "90.0",
+          "id": "text-16-google-gemini-3-flash-preview"
+        },
+        "text": "90",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          914.6,
+          373.38,
+          938.932,
+          389.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "656.1",
+          "y": "389",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "google/gemini-3-flash-preview",
+          "data-judge": "gpt_6_luna",
+          "data-score": "38.0",
+          "id": "text-17-google-gemini-3-flash-preview"
+        },
+        "text": "38",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          630.5360000000001,
+          373.38,
+          655.0660000000001,
+          389.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "422",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-18-copy"
+        },
+        "text": "GPT-5.5",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          404.96,
+          223.65600000000003,
+          422.288
+        ],
+        "advance": 90.0
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "896.05",
+          "y1": "414",
+          "x2": "811.5",
+          "y2": "414",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-14"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "890.05",
+          "y": "408",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-15"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "811.5",
+          "cy": "414",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-16"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "909.05",
+          "y": "421",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "openai/gpt-5.5",
+          "data-judge": "gpt_5_2",
+          "data-score": "89.0",
+          "id": "text-19-openai-gpt-5.5"
+        },
+        "text": "89",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          910.084,
+          405.38,
+          934.284,
+          421.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "798.5",
+          "y": "421",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "openai/gpt-5.5",
+          "data-judge": "gpt_6_luna",
+          "data-score": "70.0",
+          "id": "text-20-openai-gpt-5.5"
+        },
+        "text": "70",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          773.398,
+          405.38,
+          797.532,
+          421.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "454",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-21-copy"
+        },
+        "text": "GPT-5.4 mini",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          436.144,
+          276.84,
+          454.288
+        ],
+        "advance": 143.472
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "873.8",
+          "y1": "446",
+          "x2": "731.4",
+          "y2": "446",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-17"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "867.8",
+          "y": "440",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-18"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "731.4",
+          "cy": "446",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-19"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "886.8",
+          "y": "453",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "openai/gpt-5.4-mini",
+          "data-judge": "gpt_5_2",
+          "data-score": "84.0",
+          "id": "text-22-openai-gpt-5.4-mini"
+        },
+        "text": "84",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          887.834,
+          437.38,
+          912.474,
+          453.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "718.4",
+          "y": "453",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "openai/gpt-5.4-mini",
+          "data-judge": "gpt_6_luna",
+          "data-score": "52.0",
+          "id": "text-23-openai-gpt-5.4-mini"
+        },
+        "text": "52",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          693.32,
+          437.38,
+          717.19,
+          453.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "486",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-24-copy"
+        },
+        "text": "Gemini 3.5 Flash",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          468.144,
+          317.808,
+          486.288
+        ],
+        "advance": 184.56
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "869.35",
+          "y1": "478",
+          "x2": "673.55",
+          "y2": "478",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-20"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "863.35",
+          "y": "472",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-21"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "673.55",
+          "cy": "478",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-22"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "882.35",
+          "y": "485",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "google/gemini-3.5-flash",
+          "data-judge": "gpt_5_2",
+          "data-score": "83.0",
+          "id": "text-25-google-gemini-3.5-flash"
+        },
+        "text": "83",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          883.384,
+          469.38,
+          907.2980000000001,
+          485.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "660.55",
+          "y": "485",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "google/gemini-3.5-flash",
+          "data-judge": "gpt_6_luna",
+          "data-score": "39.0",
+          "id": "text-26-google-gemini-3.5-flash"
+        },
+        "text": "39",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          634.986,
+          469.38,
+          659.384,
+          485.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "518",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-27-copy"
+        },
+        "text": "GPT-5.2",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          500.96,
+          223.58400000000003,
+          518.288
+        ],
+        "advance": 90.0
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "851.55",
+          "y1": "510",
+          "x2": "678.0",
+          "y2": "510",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-23"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "845.55",
+          "y": "504",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-24"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "678.0",
+          "cy": "510",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-25"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "864.55",
+          "y": "517",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "openai/gpt-5.2",
+          "data-judge": "gpt_5_2",
+          "data-score": "79.0",
+          "id": "text-28-openai-gpt-5.2"
+        },
+        "text": "79",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          865.848,
+          501.38,
+          889.784,
+          517.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "665.0",
+          "y": "517",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "openai/gpt-5.2",
+          "data-judge": "gpt_6_luna",
+          "data-score": "40.0",
+          "id": "text-29-openai-gpt-5.2"
+        },
+        "text": "40",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          639.26,
+          501.38,
+          664.032,
+          517.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "550",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-30-copy"
+        },
+        "text": "DeepSeek V4 Pro",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          137.064,
+          532.24,
+          323.496,
+          554.8
+        ],
+        "advance": 189.528
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "842.65",
+          "y1": "542",
+          "x2": "646.85",
+          "y2": "542",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-26"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "836.65",
+          "y": "536",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-27"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "646.85",
+          "cy": "542",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-28"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "855.65",
+          "y": "549",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "deepseek/deepseek-v4-pro",
+          "data-judge": "gpt_5_2",
+          "data-score": "77.0",
+          "id": "text-31-deepseek-deepseek-v4-pro"
+        },
+        "text": "77",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          856.948,
+          533.644,
+          880.73,
+          549.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "633.85",
+          "y": "549",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "deepseek/deepseek-v4-pro",
+          "data-judge": "gpt_6_luna",
+          "data-score": "33.0",
+          "id": "text-32-deepseek-deepseek-v4-pro"
+        },
+        "text": "33",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          608.2860000000001,
+          533.38,
+          632.3980000000001,
+          549.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "582",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-33-copy"
+        },
+        "text": "Qwen3.6-Max Preview",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          564.144,
+          382.15200000000004,
+          586.152
+        ],
+        "advance": 247.776
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "842.65",
+          "y1": "574",
+          "x2": "629.05",
+          "y2": "574",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-29"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "836.65",
+          "y": "568",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-30"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "629.05",
+          "cy": "574",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-31"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "855.65",
+          "y": "581",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "qwen/qwen-3.6-max-preview",
+          "data-judge": "gpt_5_2",
+          "data-score": "77.0",
+          "id": "text-34-qwen-qwen-3.6-max-preview"
+        },
+        "text": "77",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          856.948,
+          565.644,
+          880.73,
+          581.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "616.05",
+          "y": "581",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "qwen/qwen-3.6-max-preview",
+          "data-judge": "gpt_6_luna",
+          "data-score": "29.0",
+          "id": "text-35-qwen-qwen-3.6-max-preview"
+        },
+        "text": "29",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          590.838,
+          565.38,
+          614.884,
+          581.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "614",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-36-copy"
+        },
+        "text": "Gemini 3 Pro Preview",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          596.144,
+          369.192,
+          614.288
+        ],
+        "advance": 234.816
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "829.3",
+          "y1": "606",
+          "x2": "606.8",
+          "y2": "606",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-32"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "823.3",
+          "y": "600",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-33"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "606.8",
+          "cy": "606",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-34"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "842.3",
+          "y": "613",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "google/gemini-3-pro-preview",
+          "data-judge": "gpt_5_2",
+          "data-score": "74.0",
+          "id": "text-37-google-gemini-3-pro-preview"
+        },
+        "text": "74",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          843.598,
+          597.644,
+          867.974,
+          613.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "593.8",
+          "y": "613",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "google/gemini-3-pro-preview",
+          "data-judge": "gpt_6_luna",
+          "data-score": "24.0",
+          "id": "text-38-google-gemini-3-pro-preview"
+        },
+        "text": "24",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          568.588,
+          597.38,
+          593.0740000000001,
+          613.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "646",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-39-copy"
+        },
+        "text": "Gemini 3.1 Pro Preview",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          628.144,
+          390.504,
+          646.288
+        ],
+        "advance": 256.128
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "829.3",
+          "y1": "638",
+          "x2": "642.4",
+          "y2": "638",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-35"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "823.3",
+          "y": "632",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-36"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "642.4",
+          "cy": "638",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-37"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "842.3",
+          "y": "645",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "google/gemini-3.1-pro-preview",
+          "data-judge": "gpt_5_2",
+          "data-score": "74.0",
+          "id": "text-40-google-gemini-3.1-pro-preview"
+        },
+        "text": "74",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          843.598,
+          629.644,
+          867.974,
+          645.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "629.4",
+          "y": "645",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "google/gemini-3.1-pro-preview",
+          "data-judge": "gpt_6_luna",
+          "data-score": "32.0",
+          "id": "text-41-google-gemini-3.1-pro-preview"
+        },
+        "text": "32",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          603.836,
+          629.38,
+          628.19,
+          645.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "678",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-42-copy"
+        },
+        "text": "Claude Opus 4.6",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          660.24,
+          314.496,
+          682.8
+        ],
+        "advance": 180.768
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "815.95",
+          "y1": "670",
+          "x2": "593.45",
+          "y2": "670",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-38"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "809.95",
+          "y": "664",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-39"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "593.45",
+          "cy": "670",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-40"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "828.95",
+          "y": "677",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "anthropic/claude-opus-4.6",
+          "data-judge": "gpt_5_2",
+          "data-score": "71.0",
+          "id": "text-43-anthropic-claude-opus-4.6"
+        },
+        "text": "71",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          830.248,
+          661.644,
+          854.58,
+          677.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "580.45",
+          "y": "677",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "anthropic/claude-opus-4.6",
+          "data-judge": "gpt_6_luna",
+          "data-score": "21.0",
+          "id": "text-44-anthropic-claude-opus-4.6"
+        },
+        "text": "21",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          555.238,
+          661.38,
+          579.6800000000001,
+          677.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "710",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-45-copy"
+        },
+        "text": "DeepSeek V4 Flash",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          137.064,
+          692.24,
+          344.88,
+          714.8
+        ],
+        "advance": 211.632
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "815.95",
+          "y1": "702",
+          "x2": "629.05",
+          "y2": "702",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-41"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "809.95",
+          "y": "696",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-42"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "629.05",
+          "cy": "702",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-43"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "828.95",
+          "y": "709",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "deepseek/deepseek-v4-flash",
+          "data-judge": "gpt_5_2",
+          "data-score": "71.0",
+          "id": "text-46-deepseek-deepseek-v4-flash"
+        },
+        "text": "71",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          830.248,
+          693.644,
+          854.58,
+          709.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "616.05",
+          "y": "709",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "deepseek/deepseek-v4-flash",
+          "data-judge": "gpt_6_luna",
+          "data-score": "29.0",
+          "id": "text-47-deepseek-deepseek-v4-flash"
+        },
+        "text": "29",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          590.838,
+          693.38,
+          614.884,
+          709.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "742",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-48-copy"
+        },
+        "text": "Qwen3.7-Max",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          724.96,
+          288.624,
+          746.152
+        ],
+        "advance": 154.104
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "802.6",
+          "y1": "734",
+          "x2": "580.1",
+          "y2": "734",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-44"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "796.6",
+          "y": "728",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-45"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "580.1",
+          "cy": "734",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-46"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "815.6",
+          "y": "741",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "qwen/qwen3.7-max",
+          "data-judge": "gpt_5_2",
+          "data-score": "68.0",
+          "id": "text-49-qwen-qwen3.7-max"
+        },
+        "text": "68",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          816.7660000000001,
+          725.38,
+          840.9660000000001,
+          741.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "567.1",
+          "y": "741",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "qwen/qwen3.7-max",
+          "data-judge": "gpt_6_luna",
+          "data-score": "18.0",
+          "id": "text-50-qwen-qwen3.7-max"
+        },
+        "text": "18",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          541.69,
+          725.38,
+          566.0660000000001,
+          741.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "774",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-51-copy"
+        },
+        "text": "MiMo-V2-Pro",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          137.064,
+          756.144,
+          278.64,
+          774.288
+        ],
+        "advance": 144.672
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "784.8",
+          "y1": "766",
+          "x2": "580.1",
+          "y2": "766",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-47"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "778.8",
+          "y": "760",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-48"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "580.1",
+          "cy": "766",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-49"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "797.8",
+          "y": "773",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "xiaomi/mimo-v2-pro",
+          "data-judge": "gpt_5_2",
+          "data-score": "64.0",
+          "id": "text-52-xiaomi-mimo-v2-pro"
+        },
+        "text": "64",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          798.966,
+          757.644,
+          823.474,
+          773.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "567.1",
+          "y": "773",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "xiaomi/mimo-v2-pro",
+          "data-judge": "gpt_6_luna",
+          "data-score": "18.0",
+          "id": "text-53-xiaomi-mimo-v2-pro"
+        },
+        "text": "18",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          541.69,
+          757.38,
+          566.0660000000001,
+          773.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "806",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-54-copy"
+        },
+        "text": "Qwen3.6-Plus",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          788.24,
+          290.232,
+          810.152
+        ],
+        "advance": 156.312
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "749.2",
+          "y1": "798",
+          "x2": "562.3",
+          "y2": "798",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-50"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "743.2",
+          "y": "792",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-51"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "562.3",
+          "cy": "798",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-52"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "762.2",
+          "y": "805",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "qwen/qwen3.6-plus",
+          "data-judge": "gpt_5_2",
+          "data-score": "56.0",
+          "id": "text-55-qwen-qwen3.6-plus"
+        },
+        "text": "56",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          763.5200000000001,
+          789.644,
+          787.5000000000001,
+          805.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "549.3",
+          "y": "805",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "qwen/qwen3.6-plus",
+          "data-judge": "gpt_6_luna",
+          "data-score": "14.0",
+          "id": "text-56-qwen-qwen3.6-plus"
+        },
+        "text": "14",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          523.89,
+          789.644,
+          548.5740000000001,
+          805.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "838",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-57-copy"
+        },
+        "text": "DeepSeek V3.2 Speciale",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          137.064,
+          820.144,
+          401.25600000000003,
+          842.8
+        ],
+        "advance": 267.288
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "718.05",
+          "y1": "830",
+          "x2": "544.5",
+          "y2": "830",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-53"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "712.05",
+          "y": "824",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-54"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "544.5",
+          "cy": "830",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-55"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "731.05",
+          "y": "837",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "deepseek/deepseek-v3.2-speciale",
+          "data-judge": "gpt_5_2",
+          "data-score": "49.0",
+          "id": "text-58-deepseek-deepseek-v3.2-speciale"
+        },
+        "text": "49",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          731.7099999999999,
+          821.38,
+          756.284,
+          837.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "531.5",
+          "y": "837",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "deepseek/deepseek-v3.2-speciale",
+          "data-judge": "gpt_6_luna",
+          "data-score": "10.0",
+          "id": "text-59-deepseek-deepseek-v3.2-speciale"
+        },
+        "text": "10",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          506.09000000000003,
+          821.38,
+          530.532,
+          837.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "870",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-60-copy"
+        },
+        "text": "Kimi K2.6",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          137.064,
+          852.144,
+          240.67199999999997,
+          870.288
+        ],
+        "advance": 106.944
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "718.05",
+          "y1": "862",
+          "x2": "553.4",
+          "y2": "862",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-56"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "712.05",
+          "y": "856",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-57"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "553.4",
+          "cy": "862",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-58"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "731.05",
+          "y": "869",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "moonshotai/kimi-k2.6",
+          "data-judge": "gpt_5_2",
+          "data-score": "49.0",
+          "id": "text-61-moonshotai-kimi-k2.6"
+        },
+        "text": "49",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          731.7099999999999,
+          853.38,
+          756.284,
+          869.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "540.4",
+          "y": "869",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "moonshotai/kimi-k2.6",
+          "data-judge": "gpt_6_luna",
+          "data-score": "12.0",
+          "id": "text-62-moonshotai-kimi-k2.6"
+        },
+        "text": "12",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          514.99,
+          853.38,
+          539.19,
+          869.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "902",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-63-copy"
+        },
+        "text": "Qwen3.5-397B-A17B",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          884.96,
+          371.03999999999996,
+          906.152
+        ],
+        "advance": 237.312
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "709.15",
+          "y1": "894",
+          "x2": "540.05",
+          "y2": "894",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-59"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "703.15",
+          "y": "888",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-60"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "540.05",
+          "cy": "894",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-61"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "722.15",
+          "y": "901",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "qwen/qwen3.5-397b-a17b",
+          "data-judge": "gpt_5_2",
+          "data-score": "47.0",
+          "id": "text-64-qwen-qwen3.5-397b-a17b"
+        },
+        "text": "47",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          722.81,
+          885.644,
+          747.23,
+          901.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "527.05",
+          "y": "901",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "qwen/qwen3.5-397b-a17b",
+          "data-judge": "gpt_6_luna",
+          "data-score": "9.0",
+          "id": "text-65-qwen-qwen3.5-397b-a17b"
+        },
+        "text": "9",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          514.9499999999999,
+          885.38,
+          525.8839999999999,
+          901.0
+        ],
+        "advance": 13.2
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "934",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-66-copy"
+        },
+        "text": "GPT-5.4 nano",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          916.96,
+          284.136,
+          934.288
+        ],
+        "advance": 150.168
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "691.35",
+          "y1": "926",
+          "x2": "531.15",
+          "y2": "926",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-62"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "685.35",
+          "y": "920",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-63"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "531.15",
+          "cy": "926",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-64"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "704.35",
+          "y": "933",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "openai/gpt-5.4-nano",
+          "data-judge": "gpt_5_2",
+          "data-score": "43.0",
+          "id": "text-67-openai-gpt-5.4-nano"
+        },
+        "text": "43",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          705.01,
+          917.38,
+          729.2980000000001,
+          933.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "518.15",
+          "y": "933",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "openai/gpt-5.4-nano",
+          "data-judge": "gpt_6_luna",
+          "data-score": "7.0",
+          "id": "text-68-openai-gpt-5.4-nano"
+        },
+        "text": "7",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          506.248,
+          917.644,
+          516.83,
+          933.0
+        ],
+        "advance": 13.2
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "135",
+          "y1": "953",
+          "x2": "945",
+          "y2": "953",
+          "stroke": "#E2DDD5",
+          "stroke-width": "2",
+          "id": "line-65"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "540",
+          "y": "982",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "23",
+          "fill": "#655B56",
+          "text-anchor": "middle",
+          "id": "text-69-copy"
+        },
+        "text": "19 заеднички модели · по 100 одговори за секој оценувач",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          220.51850000000002,
+          964.888,
+          858.6995,
+          986.6
+        ],
+        "advance": 640.987
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "540",
+          "y": "1011",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#655B56",
+          "text-anchor": "middle",
+          "id": "text-70-copy"
+        },
+        "text": "Извор: demo.example · генерирање · 2026-10-29",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          321.903,
+          994.632,
+          758.757,
+          1015.4
+        ],
+        "advance": 514.109
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "1055",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "600",
+          "font-size": "23",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-71-copy"
+        },
+        "text": "demo.example",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "SemiBold"
+        },
+        "inkBounds": [
+          136.702,
+          1037.842,
+          214.718,
+          1055.276
+        ],
+        "advance": 157.891
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "945",
+          "y": "1055",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "23",
+          "fill": "#AC1922",
+          "text-anchor": "end",
+          "id": "text-72-copy"
+        },
+        "text": "DRAFT — необјавено",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          722.245,
+          1037.75,
+          944.0110000000001,
+          1059.6
+        ],
+        "advance": 224.733
+      }
+    ]
+  },
+  {
+    "name": "LUX / Portrait / DRAFT",
+    "width": 1080,
+    "height": 1350,
+    "items": [
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "0",
+          "y": "0",
+          "width": "1080",
+          "height": "1350",
+          "fill": "#FCFAF6",
+          "id": "rect-01"
+        }
+      },
+      {
+        "kind": "image",
+        "attrs": {
+          "id": "logo",
+          "x": "135",
+          "y": "10",
+          "width": "72",
+          "height": "72",
+          "preserveAspectRatio": "xMidYMid meet"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "220",
+          "y": "59",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "600",
+          "font-size": "27",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-01-copy"
+        },
+        "text": "LUX · demo.example",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "SemiBold"
+        },
+        "inkBounds": [
+          222.214,
+          38.858000000000004,
+          387.373,
+          59.324
+        ],
+        "advance": 257.016
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "945",
+          "y": "57",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "18",
+          "fill": "#655B56",
+          "text-anchor": "end",
+          "id": "text-02-copy"
+        },
+        "text": "ГЕНЕРИРАЊЕ НА МАКЕДОНСКИ",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          687.978,
+          44.22,
+          943.7579999999999,
+          59.7
+        ],
+        "advance": 259.2
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "135",
+          "y1": "88",
+          "x2": "945",
+          "y2": "88",
+          "stroke": "#E2DDD5",
+          "stroke-width": "2",
+          "id": "line-03"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "540",
+          "y": "144",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "600",
+          "font-size": "50",
+          "fill": "#190F0B",
+          "text-anchor": "middle",
+          "id": "text-03-copy"
+        },
+        "text": "Исти модели.",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "SemiBold"
+        },
+        "inkBounds": [
+          380.675,
+          109.1,
+          699.9250000000001,
+          151.0
+        ],
+        "advance": 326.85
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "540",
+          "y": "200",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "600",
+          "font-size": "50",
+          "fill": "#190F0B",
+          "text-anchor": "middle",
+          "id": "text-04-copy"
+        },
+        "text": "Различни оценки.",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "SemiBold"
+        },
+        "inkBounds": [
+          325.375,
+          165.1,
+          755.225,
+          207.0
+        ],
+        "advance": 437.45000000000005
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "540",
+          "y": "239",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "26",
+          "fill": "#655B56",
+          "text-anchor": "middle",
+          "id": "text-05-copy"
+        },
+        "text": "% добри одговори · повисоко е подобро",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          291.635,
+          219.5,
+          788.7810000000001,
+          244.2
+        ],
+        "advance": 499.798
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "282",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "20",
+          "fill": "#655B56",
+          "text-anchor": "start",
+          "id": "text-06-copy"
+        },
+        "text": "ОЦЕНУВАЧИ",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          135.88,
+          267.8,
+          241.62,
+          285.0
+        ],
+        "advance": 108.0
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "396",
+          "y": "267",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-04"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "422",
+          "y": "282",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "28",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-07-copy"
+        },
+        "text": "GPT-5.2",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          423.54,
+          262.12,
+          525.348,
+          282.336
+        ],
+        "advance": 105.0
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "672",
+          "cy": "273",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-05"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "692",
+          "y": "282",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "27",
+          "fill": "#305880",
+          "text-anchor": "start",
+          "id": "text-08-copy"
+        },
+        "text": "GPT-6 Luna · high",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          693.485,
+          261.912,
+          908.3779999999999,
+          287.724
+        ],
+        "advance": 218.349
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "360",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "23",
+          "fill": "#655B56",
+          "text-anchor": "start",
+          "id": "text-09-copy"
+        },
+        "text": "МОДЕЛ",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.288,
+          343.67,
+          202.459,
+          363.45
+        ],
+        "advance": 69.0
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "500",
+          "y": "360",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "23",
+          "fill": "#655B56",
+          "text-anchor": "middle",
+          "id": "text-10-copy"
+        },
+        "text": "0",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          494.112,
+          343.67,
+          505.88800000000003,
+          360.276
+        ],
+        "advance": 13.799999999999999
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "945",
+          "y": "360",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "23",
+          "fill": "#655B56",
+          "text-anchor": "end",
+          "id": "text-11-copy"
+        },
+        "text": "100%",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          890.8349999999999,
+          343.67,
+          944.747,
+          360.276
+        ],
+        "advance": 55.199999999999996
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "500",
+          "y1": "374",
+          "x2": "500",
+          "y2": "1179",
+          "stroke": "#E2DDD5",
+          "stroke-width": "2",
+          "id": "line-06"
+        }
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "945",
+          "y1": "374",
+          "x2": "945",
+          "y2": "1179",
+          "stroke": "#E2DDD5",
+          "stroke-width": "2",
+          "id": "line-07"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "398",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-12-copy"
+        },
+        "text": "GPT-6 Luna",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          380.96,
+          261.79200000000003,
+          398.288
+        ],
+        "advance": 127.488
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "904.95",
+          "y1": "390",
+          "x2": "789.25",
+          "y2": "390",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-08"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "898.95",
+          "y": "384",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-09"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "789.25",
+          "cy": "390",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-10"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "917.95",
+          "y": "397",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "openai/gpt-6-luna",
+          "data-judge": "gpt_5_2",
+          "data-score": "91.0",
+          "id": "text-13-openai-gpt-6-luna"
+        },
+        "text": "91",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          919.0500000000001,
+          381.38,
+          943.58,
+          397.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "776.25",
+          "y": "397",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "openai/gpt-6-luna",
+          "data-judge": "gpt_6_luna",
+          "data-score": "65.0",
+          "id": "text-14-openai-gpt-6-luna"
+        },
+        "text": "65",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          751.0160000000001,
+          381.644,
+          775.0840000000001,
+          397.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "441",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-15-copy"
+        },
+        "text": "Gemini 3 Flash Preview",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          423.144,
+          391.29600000000005,
+          441.288
+        ],
+        "advance": 256.92
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "900.5",
+          "y1": "433",
+          "x2": "669.1",
+          "y2": "433",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-11"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "894.5",
+          "y": "427",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-12"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "669.1",
+          "cy": "433",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-13"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "913.5",
+          "y": "440",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "google/gemini-3-flash-preview",
+          "data-judge": "gpt_5_2",
+          "data-score": "90.0",
+          "id": "text-16-google-gemini-3-flash-preview"
+        },
+        "text": "90",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          914.6,
+          424.38,
+          938.932,
+          440.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "656.1",
+          "y": "440",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "google/gemini-3-flash-preview",
+          "data-judge": "gpt_6_luna",
+          "data-score": "38.0",
+          "id": "text-17-google-gemini-3-flash-preview"
+        },
+        "text": "38",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          630.5360000000001,
+          424.38,
+          655.0660000000001,
+          440.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "484",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-18-copy"
+        },
+        "text": "GPT-5.5",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          466.96,
+          223.65600000000003,
+          484.288
+        ],
+        "advance": 90.0
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "896.05",
+          "y1": "476",
+          "x2": "811.5",
+          "y2": "476",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-14"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "890.05",
+          "y": "470",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-15"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "811.5",
+          "cy": "476",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-16"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "909.05",
+          "y": "483",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "openai/gpt-5.5",
+          "data-judge": "gpt_5_2",
+          "data-score": "89.0",
+          "id": "text-19-openai-gpt-5.5"
+        },
+        "text": "89",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          910.084,
+          467.38,
+          934.284,
+          483.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "798.5",
+          "y": "483",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "openai/gpt-5.5",
+          "data-judge": "gpt_6_luna",
+          "data-score": "70.0",
+          "id": "text-20-openai-gpt-5.5"
+        },
+        "text": "70",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          773.398,
+          467.38,
+          797.532,
+          483.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "527",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-21-copy"
+        },
+        "text": "GPT-5.4 mini",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          509.144,
+          276.84,
+          527.288
+        ],
+        "advance": 143.472
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "873.8",
+          "y1": "519",
+          "x2": "731.4",
+          "y2": "519",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-17"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "867.8",
+          "y": "513",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-18"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "731.4",
+          "cy": "519",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-19"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "886.8",
+          "y": "526",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "openai/gpt-5.4-mini",
+          "data-judge": "gpt_5_2",
+          "data-score": "84.0",
+          "id": "text-22-openai-gpt-5.4-mini"
+        },
+        "text": "84",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          887.834,
+          510.38,
+          912.474,
+          526.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "718.4",
+          "y": "526",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "openai/gpt-5.4-mini",
+          "data-judge": "gpt_6_luna",
+          "data-score": "52.0",
+          "id": "text-23-openai-gpt-5.4-mini"
+        },
+        "text": "52",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          693.32,
+          510.38,
+          717.19,
+          526.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "570",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-24-copy"
+        },
+        "text": "Gemini 3.5 Flash",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          552.144,
+          317.808,
+          570.288
+        ],
+        "advance": 184.56
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "869.35",
+          "y1": "562",
+          "x2": "673.55",
+          "y2": "562",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-20"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "863.35",
+          "y": "556",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-21"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "673.55",
+          "cy": "562",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-22"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "882.35",
+          "y": "569",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "google/gemini-3.5-flash",
+          "data-judge": "gpt_5_2",
+          "data-score": "83.0",
+          "id": "text-25-google-gemini-3.5-flash"
+        },
+        "text": "83",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          883.384,
+          553.38,
+          907.2980000000001,
+          569.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "660.55",
+          "y": "569",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "google/gemini-3.5-flash",
+          "data-judge": "gpt_6_luna",
+          "data-score": "39.0",
+          "id": "text-26-google-gemini-3.5-flash"
+        },
+        "text": "39",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          634.986,
+          553.38,
+          659.384,
+          569.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "613",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-27-copy"
+        },
+        "text": "GPT-5.2",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          595.96,
+          223.58400000000003,
+          613.288
+        ],
+        "advance": 90.0
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "851.55",
+          "y1": "605",
+          "x2": "678.0",
+          "y2": "605",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-23"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "845.55",
+          "y": "599",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-24"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "678.0",
+          "cy": "605",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-25"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "864.55",
+          "y": "612",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "openai/gpt-5.2",
+          "data-judge": "gpt_5_2",
+          "data-score": "79.0",
+          "id": "text-28-openai-gpt-5.2"
+        },
+        "text": "79",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          865.848,
+          596.38,
+          889.784,
+          612.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "665.0",
+          "y": "612",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "openai/gpt-5.2",
+          "data-judge": "gpt_6_luna",
+          "data-score": "40.0",
+          "id": "text-29-openai-gpt-5.2"
+        },
+        "text": "40",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          639.26,
+          596.38,
+          664.032,
+          612.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "656",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-30-copy"
+        },
+        "text": "DeepSeek V4 Pro",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          137.064,
+          638.24,
+          323.496,
+          660.8
+        ],
+        "advance": 189.528
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "842.65",
+          "y1": "648",
+          "x2": "646.85",
+          "y2": "648",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-26"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "836.65",
+          "y": "642",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-27"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "646.85",
+          "cy": "648",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-28"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "855.65",
+          "y": "655",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "deepseek/deepseek-v4-pro",
+          "data-judge": "gpt_5_2",
+          "data-score": "77.0",
+          "id": "text-31-deepseek-deepseek-v4-pro"
+        },
+        "text": "77",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          856.948,
+          639.644,
+          880.73,
+          655.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "633.85",
+          "y": "655",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "deepseek/deepseek-v4-pro",
+          "data-judge": "gpt_6_luna",
+          "data-score": "33.0",
+          "id": "text-32-deepseek-deepseek-v4-pro"
+        },
+        "text": "33",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          608.2860000000001,
+          639.38,
+          632.3980000000001,
+          655.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "699",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-33-copy"
+        },
+        "text": "Qwen3.6-Max Preview",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          681.144,
+          382.15200000000004,
+          703.152
+        ],
+        "advance": 247.776
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "842.65",
+          "y1": "691",
+          "x2": "629.05",
+          "y2": "691",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-29"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "836.65",
+          "y": "685",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-30"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "629.05",
+          "cy": "691",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-31"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "855.65",
+          "y": "698",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "qwen/qwen-3.6-max-preview",
+          "data-judge": "gpt_5_2",
+          "data-score": "77.0",
+          "id": "text-34-qwen-qwen-3.6-max-preview"
+        },
+        "text": "77",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          856.948,
+          682.644,
+          880.73,
+          698.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "616.05",
+          "y": "698",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "qwen/qwen-3.6-max-preview",
+          "data-judge": "gpt_6_luna",
+          "data-score": "29.0",
+          "id": "text-35-qwen-qwen-3.6-max-preview"
+        },
+        "text": "29",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          590.838,
+          682.38,
+          614.884,
+          698.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "742",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-36-copy"
+        },
+        "text": "Gemini 3 Pro Preview",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          724.144,
+          369.192,
+          742.288
+        ],
+        "advance": 234.816
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "829.3",
+          "y1": "734",
+          "x2": "606.8",
+          "y2": "734",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-32"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "823.3",
+          "y": "728",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-33"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "606.8",
+          "cy": "734",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-34"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "842.3",
+          "y": "741",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "google/gemini-3-pro-preview",
+          "data-judge": "gpt_5_2",
+          "data-score": "74.0",
+          "id": "text-37-google-gemini-3-pro-preview"
+        },
+        "text": "74",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          843.598,
+          725.644,
+          867.974,
+          741.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "593.8",
+          "y": "741",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "google/gemini-3-pro-preview",
+          "data-judge": "gpt_6_luna",
+          "data-score": "24.0",
+          "id": "text-38-google-gemini-3-pro-preview"
+        },
+        "text": "24",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          568.588,
+          725.38,
+          593.0740000000001,
+          741.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "785",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-39-copy"
+        },
+        "text": "Gemini 3.1 Pro Preview",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          767.144,
+          390.504,
+          785.288
+        ],
+        "advance": 256.128
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "829.3",
+          "y1": "777",
+          "x2": "642.4",
+          "y2": "777",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-35"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "823.3",
+          "y": "771",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-36"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "642.4",
+          "cy": "777",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-37"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "842.3",
+          "y": "784",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "google/gemini-3.1-pro-preview",
+          "data-judge": "gpt_5_2",
+          "data-score": "74.0",
+          "id": "text-40-google-gemini-3.1-pro-preview"
+        },
+        "text": "74",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          843.598,
+          768.644,
+          867.974,
+          784.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "629.4",
+          "y": "784",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "google/gemini-3.1-pro-preview",
+          "data-judge": "gpt_6_luna",
+          "data-score": "32.0",
+          "id": "text-41-google-gemini-3.1-pro-preview"
+        },
+        "text": "32",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          603.836,
+          768.38,
+          628.19,
+          784.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "828",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-42-copy"
+        },
+        "text": "Claude Opus 4.6",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          810.24,
+          314.496,
+          832.8
+        ],
+        "advance": 180.768
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "815.95",
+          "y1": "820",
+          "x2": "593.45",
+          "y2": "820",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-38"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "809.95",
+          "y": "814",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-39"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "593.45",
+          "cy": "820",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-40"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "828.95",
+          "y": "827",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "anthropic/claude-opus-4.6",
+          "data-judge": "gpt_5_2",
+          "data-score": "71.0",
+          "id": "text-43-anthropic-claude-opus-4.6"
+        },
+        "text": "71",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          830.248,
+          811.644,
+          854.58,
+          827.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "580.45",
+          "y": "827",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "anthropic/claude-opus-4.6",
+          "data-judge": "gpt_6_luna",
+          "data-score": "21.0",
+          "id": "text-44-anthropic-claude-opus-4.6"
+        },
+        "text": "21",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          555.238,
+          811.38,
+          579.6800000000001,
+          827.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "871",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-45-copy"
+        },
+        "text": "DeepSeek V4 Flash",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          137.064,
+          853.24,
+          344.88,
+          875.8
+        ],
+        "advance": 211.632
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "815.95",
+          "y1": "863",
+          "x2": "629.05",
+          "y2": "863",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-41"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "809.95",
+          "y": "857",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-42"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "629.05",
+          "cy": "863",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-43"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "828.95",
+          "y": "870",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "deepseek/deepseek-v4-flash",
+          "data-judge": "gpt_5_2",
+          "data-score": "71.0",
+          "id": "text-46-deepseek-deepseek-v4-flash"
+        },
+        "text": "71",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          830.248,
+          854.644,
+          854.58,
+          870.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "616.05",
+          "y": "870",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "deepseek/deepseek-v4-flash",
+          "data-judge": "gpt_6_luna",
+          "data-score": "29.0",
+          "id": "text-47-deepseek-deepseek-v4-flash"
+        },
+        "text": "29",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          590.838,
+          854.38,
+          614.884,
+          870.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "914",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-48-copy"
+        },
+        "text": "Qwen3.7-Max",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          896.96,
+          288.624,
+          918.152
+        ],
+        "advance": 154.104
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "802.6",
+          "y1": "906",
+          "x2": "580.1",
+          "y2": "906",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-44"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "796.6",
+          "y": "900",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-45"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "580.1",
+          "cy": "906",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-46"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "815.6",
+          "y": "913",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "qwen/qwen3.7-max",
+          "data-judge": "gpt_5_2",
+          "data-score": "68.0",
+          "id": "text-49-qwen-qwen3.7-max"
+        },
+        "text": "68",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          816.7660000000001,
+          897.38,
+          840.9660000000001,
+          913.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "567.1",
+          "y": "913",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "qwen/qwen3.7-max",
+          "data-judge": "gpt_6_luna",
+          "data-score": "18.0",
+          "id": "text-50-qwen-qwen3.7-max"
+        },
+        "text": "18",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          541.69,
+          897.38,
+          566.0660000000001,
+          913.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "957",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-51-copy"
+        },
+        "text": "MiMo-V2-Pro",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          137.064,
+          939.144,
+          278.64,
+          957.288
+        ],
+        "advance": 144.672
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "784.8",
+          "y1": "949",
+          "x2": "580.1",
+          "y2": "949",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-47"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "778.8",
+          "y": "943",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-48"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "580.1",
+          "cy": "949",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-49"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "797.8",
+          "y": "956",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "xiaomi/mimo-v2-pro",
+          "data-judge": "gpt_5_2",
+          "data-score": "64.0",
+          "id": "text-52-xiaomi-mimo-v2-pro"
+        },
+        "text": "64",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          798.966,
+          940.644,
+          823.474,
+          956.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "567.1",
+          "y": "956",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "xiaomi/mimo-v2-pro",
+          "data-judge": "gpt_6_luna",
+          "data-score": "18.0",
+          "id": "text-53-xiaomi-mimo-v2-pro"
+        },
+        "text": "18",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          541.69,
+          940.38,
+          566.0660000000001,
+          956.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "1000",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-54-copy"
+        },
+        "text": "Qwen3.6-Plus",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          982.24,
+          290.232,
+          1004.152
+        ],
+        "advance": 156.312
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "749.2",
+          "y1": "992",
+          "x2": "562.3",
+          "y2": "992",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-50"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "743.2",
+          "y": "986",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-51"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "562.3",
+          "cy": "992",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-52"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "762.2",
+          "y": "999",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "qwen/qwen3.6-plus",
+          "data-judge": "gpt_5_2",
+          "data-score": "56.0",
+          "id": "text-55-qwen-qwen3.6-plus"
+        },
+        "text": "56",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          763.5200000000001,
+          983.644,
+          787.5000000000001,
+          999.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "549.3",
+          "y": "999",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "qwen/qwen3.6-plus",
+          "data-judge": "gpt_6_luna",
+          "data-score": "14.0",
+          "id": "text-56-qwen-qwen3.6-plus"
+        },
+        "text": "14",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          523.89,
+          983.644,
+          548.5740000000001,
+          999.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "1043",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-57-copy"
+        },
+        "text": "DeepSeek V3.2 Speciale",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          137.064,
+          1025.144,
+          401.25600000000003,
+          1047.8
+        ],
+        "advance": 267.288
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "718.05",
+          "y1": "1035",
+          "x2": "544.5",
+          "y2": "1035",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-53"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "712.05",
+          "y": "1029",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-54"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "544.5",
+          "cy": "1035",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-55"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "731.05",
+          "y": "1042",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "deepseek/deepseek-v3.2-speciale",
+          "data-judge": "gpt_5_2",
+          "data-score": "49.0",
+          "id": "text-58-deepseek-deepseek-v3.2-speciale"
+        },
+        "text": "49",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          731.7099999999999,
+          1026.38,
+          756.284,
+          1042.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "531.5",
+          "y": "1042",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "deepseek/deepseek-v3.2-speciale",
+          "data-judge": "gpt_6_luna",
+          "data-score": "10.0",
+          "id": "text-59-deepseek-deepseek-v3.2-speciale"
+        },
+        "text": "10",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          506.09000000000003,
+          1026.38,
+          530.532,
+          1042.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "1086",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-60-copy"
+        },
+        "text": "Kimi K2.6",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          137.064,
+          1068.144,
+          240.67199999999997,
+          1086.288
+        ],
+        "advance": 106.944
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "718.05",
+          "y1": "1078",
+          "x2": "553.4",
+          "y2": "1078",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-56"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "712.05",
+          "y": "1072",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-57"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "553.4",
+          "cy": "1078",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-58"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "731.05",
+          "y": "1085",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "moonshotai/kimi-k2.6",
+          "data-judge": "gpt_5_2",
+          "data-score": "49.0",
+          "id": "text-61-moonshotai-kimi-k2.6"
+        },
+        "text": "49",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          731.7099999999999,
+          1069.38,
+          756.284,
+          1085.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "540.4",
+          "y": "1085",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "moonshotai/kimi-k2.6",
+          "data-judge": "gpt_6_luna",
+          "data-score": "12.0",
+          "id": "text-62-moonshotai-kimi-k2.6"
+        },
+        "text": "12",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          514.99,
+          1069.38,
+          539.19,
+          1085.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "1129",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-63-copy"
+        },
+        "text": "Qwen3.5-397B-A17B",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          1111.96,
+          371.03999999999996,
+          1133.152
+        ],
+        "advance": 237.312
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "709.15",
+          "y1": "1121",
+          "x2": "540.05",
+          "y2": "1121",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-59"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "703.15",
+          "y": "1115",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-60"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "540.05",
+          "cy": "1121",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-61"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "722.15",
+          "y": "1128",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "qwen/qwen3.5-397b-a17b",
+          "data-judge": "gpt_5_2",
+          "data-score": "47.0",
+          "id": "text-64-qwen-qwen3.5-397b-a17b"
+        },
+        "text": "47",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          722.81,
+          1112.644,
+          747.23,
+          1128.0
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "527.05",
+          "y": "1128",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "qwen/qwen3.5-397b-a17b",
+          "data-judge": "gpt_6_luna",
+          "data-score": "9.0",
+          "id": "text-65-qwen-qwen3.5-397b-a17b"
+        },
+        "text": "9",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          514.9499999999999,
+          1112.38,
+          525.8839999999999,
+          1128.0
+        ],
+        "advance": 13.2
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "1172",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "24",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-66-copy"
+        },
+        "text": "GPT-5.4 nano",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          136.32,
+          1154.96,
+          284.136,
+          1172.288
+        ],
+        "advance": 150.168
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "691.35",
+          "y1": "1164",
+          "x2": "531.15",
+          "y2": "1164",
+          "stroke": "#E2DDD5",
+          "stroke-width": "5",
+          "id": "line-62"
+        }
+      },
+      {
+        "kind": "rect",
+        "attrs": {
+          "x": "685.35",
+          "y": "1158",
+          "width": "12",
+          "height": "12",
+          "fill": "#190F0B",
+          "id": "rect-63"
+        }
+      },
+      {
+        "kind": "circle",
+        "attrs": {
+          "cx": "531.15",
+          "cy": "1164",
+          "r": "7",
+          "fill": "#305880",
+          "id": "circle-64"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "704.35",
+          "y": "1171",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "data-model": "openai/gpt-5.4-nano",
+          "data-judge": "gpt_5_2",
+          "data-score": "43.0",
+          "id": "text-67-openai-gpt-5.4-nano"
+        },
+        "text": "43",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          705.01,
+          1155.38,
+          729.2980000000001,
+          1171.264
+        ],
+        "advance": 26.4
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "518.15",
+          "y": "1171",
+          "font-family": "'IBM Plex Mono'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#305880",
+          "text-anchor": "end",
+          "data-model": "openai/gpt-5.4-nano",
+          "data-judge": "gpt_6_luna",
+          "data-score": "7.0",
+          "id": "text-68-openai-gpt-5.4-nano"
+        },
+        "text": "7",
+        "font": {
+          "family": "IBM Plex Mono",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          506.248,
+          1155.644,
+          516.83,
+          1171.0
+        ],
+        "advance": 13.2
+      },
+      {
+        "kind": "line",
+        "attrs": {
+          "x1": "135",
+          "y1": "1191",
+          "x2": "945",
+          "y2": "1191",
+          "stroke": "#E2DDD5",
+          "stroke-width": "2",
+          "id": "line-65"
+        }
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "540",
+          "y": "1220",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "23",
+          "fill": "#655B56",
+          "text-anchor": "middle",
+          "id": "text-69-copy"
+        },
+        "text": "19 заеднички модели · по 100 одговори за секој оценувач",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          220.51850000000002,
+          1202.888,
+          858.6995,
+          1224.6
+        ],
+        "advance": 640.987
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "540",
+          "y": "1249",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "22",
+          "fill": "#655B56",
+          "text-anchor": "middle",
+          "id": "text-70-copy"
+        },
+        "text": "Извор: demo.example · генерирање · 2026-10-29",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          321.903,
+          1232.632,
+          758.757,
+          1253.4
+        ],
+        "advance": 514.109
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "135",
+          "y": "1325",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "600",
+          "font-size": "23",
+          "fill": "#190F0B",
+          "text-anchor": "start",
+          "id": "text-71-copy"
+        },
+        "text": "demo.example",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "SemiBold"
+        },
+        "inkBounds": [
+          136.702,
+          1307.842,
+          214.718,
+          1325.276
+        ],
+        "advance": 157.891
+      },
+      {
+        "kind": "text",
+        "attrs": {
+          "x": "945",
+          "y": "1325",
+          "font-family": "'IBM Plex Sans'",
+          "font-weight": "500",
+          "font-size": "23",
+          "fill": "#AC1922",
+          "text-anchor": "end",
+          "id": "text-72-copy"
+        },
+        "text": "DRAFT — необјавено",
+        "font": {
+          "family": "IBM Plex Sans",
+          "style": "Medium"
+        },
+        "inkBounds": [
+          722.245,
+          1307.75,
+          944.0110000000001,
+          1329.6
+        ],
+        "advance": 224.733
+      }
+    ]
+  }
+]

@@ -1,0 +1,159 @@
+{
+ "id": "kites/square",
+ "kit": "kites",
+ "name": "Kites post · square",
+ "description": "templates/kites/ig-1080.svg, wordmark-only footer (the Kites logo's licence is unverified, TYPE-SCALE.md).",
+ "assets": {},
+ "doc": {
+  "schema": "post-studio/2",
+  "id": "prj_import",
+  "title": "Kites post · square",
+  "lang": "mk",
+  "brandKit": "kites",
+  "frames": [
+   {
+    "id": "square",
+    "name": "Square",
+    "w": 1080,
+    "h": 1080,
+    "children": [
+     {
+      "id": "art",
+      "type": "group",
+      "role": "art",
+      "x": 72,
+      "y": 136,
+      "w": 936,
+      "h": 544,
+      "children": [],
+      "name": "art well 936×544"
+     },
+     {
+      "id": "kicker",
+      "type": "text",
+      "x": 135,
+      "y": 67.725,
+      "w": 374.16,
+      "h": 36,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "Rubik",
+       "weight": 500,
+       "size": 30,
+       "fill": {
+        "token": "kites.muted"
+       }
+      },
+      "spans": [
+       {
+        "text": "Октомври · месец на ААК"
+       }
+      ],
+      "role": "kicker"
+     },
+     {
+      "id": "headline",
+      "type": "text",
+      "x": 135,
+      "y": 711.34,
+      "w": 694.44,
+      "h": 160,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "Rubik",
+       "weight": 700,
+       "size": 72,
+       "fill": {
+        "token": "kites.ink"
+       },
+       "lineHeight": 1.1111111111111112
+      },
+      "spans": [
+       {
+        "text": "Направете ги\nкартичките лични."
+       }
+      ],
+      "role": "headline"
+     },
+     {
+      "id": "sub",
+      "type": "text",
+      "x": 135,
+      "y": 887.955,
+      "w": 444.074,
+      "h": 40.8,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "Rubik",
+       "weight": 500,
+       "size": 34,
+       "fill": {
+        "token": "kites.muted"
+       }
+      },
+      "spans": [
+       {
+        "text": "Три чекорчиња до порака."
+       }
+      ],
+      "role": "sub"
+     },
+     {
+      "id": "accent",
+      "type": "group",
+      "role": "accent",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "children": [],
+      "name": "Accent (put the one accent object here)"
+     },
+     {
+      "id": "footer",
+      "type": "text",
+      "x": 72,
+      "y": 981.61,
+      "w": 295.4,
+      "h": 33.6,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "Rubik",
+       "weight": 600,
+       "size": 28,
+       "fill": {
+        "token": "kites.purple-deep"
+       }
+      },
+      "spans": [
+       {
+        "text": "Kites · app.demo.example"
+       }
+      ],
+      "role": "footer"
+     }
+    ],
+    "meta": {
+     "source": "post.svg",
+     "mode": "template"
+    },
+    "background": {
+     "color": {
+      "token": "kites.cream"
+     }
+    },
+    "guides": "kites/ig-1080"
+   }
+  ],
+  "meta": {
+   "template": {
+    "id": "kites/square",
+    "source": "social-posts/templates/kites/ig-1080.svg"
+   }
+  }
+ }
+}

@@ -1,0 +1,18 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Macedonian golden tests > shapes ѓ ќ ѕ џ љ њ in every registered face without missing glyphs 1`] = `
+{
+  "Alegreya 600": 1169.8,
+  "Alegreya 700": 1170.8,
+  "Alegreya Sans 400": 1086.88,
+  "Alegreya Sans 500": 1098.2,
+  "Bitter 600": 1306.6,
+  "Bitter 700": 1311.8,
+  "IBM Plex Mono 500": 1632,
+  "IBM Plex Mono 600": 1632,
+  "IBM Plex Sans 400": 1293.72,
+  "Rubik 500": 1335.4,
+  "Source Sans 3 400": 1186.04,
+  "Source Sans 3 600": 1214.76,
+}
+`;

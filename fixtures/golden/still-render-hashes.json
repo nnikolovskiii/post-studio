@@ -1,0 +1,68 @@
+{
+  "lux-6-square.hand": {
+    "square.svg": "e633cdc94a6102745738d3f4ff38ec79fc56ddc2482d8384a9fb25a04e2ea8e2",
+    "square.figma.svg": "c1a3d3d25c2decd4c84fef1e11e69687391797d35937ba922594bd2ac1337071",
+    "square.outlined.svg": "9e46fd11de1e35a46ce198ca5f11dfc5c22744ea8ab07c2d2557fe68e82838d3",
+    "square.png": "ab118223097f3f0d5589dfa06edc40ee472ae88488025c0a9a459fde885ed868"
+  },
+  "template:lux/post": {
+    "square.svg": "8981bf6316ef1b2ccb1afd07ed264cd5c648f5b4af61c97c1ec464acae5ac3f0",
+    "square.figma.svg": "4db1f81296247a50eed27385f4d581d9e46906211c44d9a336643a180f498658",
+    "square.outlined.svg": "1c6e74d6b33de474454620490f3821bad10f8c2ced0ef28d6b6e1d7017f49505",
+    "square.png": "b1dc62e06ade86d9e71e6e46ca5a1c0e9d174c932d8fa947c15ae60839aca177",
+    "li.svg": "4de32ea5c3736aa9b5154b61bd81b56ac955ddd250b2ca797cfd6cdd60195c06",
+    "li.figma.svg": "16ee6362456521f4e205190e13733b5fb42ef23ad9cf16b0033cbc4e162b70a1",
+    "li.outlined.svg": "c5f8cac0a5b84ad78d8a1390cdf15d1009a69e03dde7fa3e29e238d5e87d2a69",
+    "li.png": "5081d59cc5fc6962e583494041ca21364fc61cfd4bd4fb72eb65b184f057f174"
+  },
+  "template:lux/square": {
+    "square.svg": "a85d31aa434d8841fade76619cedbc61d7ba52d53e0cbfe4308d1b4af52a818f",
+    "square.figma.svg": "2ffb368280e99faaac4978beab48b8d3d943fd14a1a6fdb64af71c8aa3492b1a",
+    "square.outlined.svg": "22368d3a5ef86af380718a23e963428b5fbf6a58671f2cf990c7cf9562e4abbf",
+    "square.png": "b1dc62e06ade86d9e71e6e46ca5a1c0e9d174c932d8fa947c15ae60839aca177"
+  },
+  "template:mosaic/square": {
+    "square.svg": "9e291cf41bbbacb35a41a91cd285f33bad6c4521989bf2b08efe1cd3eb1ac1f0",
+    "square.figma.svg": "c40cf2ecf6fe8d51178830c16677730c42afc63ae174553e8108c6643ba15952",
+    "square.outlined.svg": "92c076b193c0eda7ef959a41e889870cd044ed430f1b81de25d90bf323e96053",
+    "square.png": "6f728e7e87e3fd89778496634da7c2d5404756d751f2f119c2dfff683e8c4ded"
+  },
+  "template:kites/square": {
+    "square.svg": "e7857c26d311ada4f4fc8595e12ca8a8c9591d5c79592d0c3d67326416758170",
+    "square.figma.svg": "c40c614d7089de8d4d9fa1cd285530704d20e032d2dbf3773b54aca083a67917",
+    "square.outlined.svg": "65fcd395ff13ebc3303162eb1ebd95dce5954b3dea3653361015beb3b67657f3",
+    "square.png": "63af582cc608623e266f4988ef64061903b26eafb4940fdc5ca5cbb094c9433d"
+  },
+  "template:studio/square": {
+    "square.svg": "ee7a5e7e753e3f26a79489b4b3608abd34cf61a99a4ffc1c8061c61f156253e9",
+    "square.figma.svg": "7b68449a57e593048b83054a48bda1267dc261319db96f2d23b85cf651981dcf",
+    "square.outlined.svg": "90689e696a0733fc51e7093a6c9fab3d378711ad65130db48207d2b5a2873d19",
+    "square.png": "87f8014c2e3f77762c8ff3bd192d080654b7bf628d46c1878cb6034c7f6c0ebf"
+  },
+  "import:lux-6-judge-compare": {
+    "square.svg": "58e51b8bd4a4799b2853a441ab46a5e9960de7f49b7753938a35401b3feb8fd0",
+    "square.figma.svg": "afd2f73b9ae423976e4374486744982f9dd7e8b4ea6f561bec134c2ac4504559",
+    "square.outlined.svg": "58ab5de0c99a066cdba60ab737cc7c37a2b66c617fc2515421278df9728b63c8",
+    "square.png": "a48b1a1ac30a3f18258dfad31e09c6c04dde08a19e589cff80ac0f8bff54124a",
+    "li.svg": "e5ef336368abbd1a3999f6b5bfaecc1073db0136318e8819a8b4d61a691706d3",
+    "li.figma.svg": "2070f6ffab06e0bbea91ccccdbe4ff97657aebf4aa035096f3e512d67ea69fdd",
+    "li.outlined.svg": "091b065c988afe6af1a9072cd369bf73e1004ec40909f6602a96a96fb41ab01d",
+    "li.png": "f55ffc54c4a6a19ebdf936d9c349cd65f73e36b0570b5d175146de22c3c4b1fb"
+  },
+  "import:lux-1-leaderboard": {
+    "square.svg": "c6516f8c9860a60672a2d11bcea341203699fc072c757a281892cce51d004128",
+    "square.figma.svg": "f844e06638bdf25d663ae6ec242c97ad9b78b3ad0ee482d72f60bca1076445d9",
+    "square.outlined.svg": "bf420005239dd42647b38f9a925276d617b88bc24db3e76dd3e9a3f748fe6734",
+    "square.png": "945d265a485345d104693d91a88eab124d36a328d3636edd15f66061510b5588",
+    "li.svg": "c123b2e38651d52b8dbee505b9b69f9b08ea10cce5630c276a3f83b9324f4312",
+    "li.figma.svg": "8d55ec422704895a9b74d3fb35c53fc2be26c592aee45127338cb66bf3b51b70",
+    "li.outlined.svg": "1f135a99232b6a203578a00cc75bdc8135d65ad9664c468f80d5468db1637f4b",
+    "li.png": "7d274e8cce08290901cef40710fe9fdac60fbcf85ccf109e017ceb4dbac63677"
+  },
+  "import:daily-2026-10-26-tochna-cena": {
+    "square.svg": "ffc3fc901f7578024fbb8c85fcddbb2eb5611c4713398a03ce85fc4dba4837fd",
+    "square.figma.svg": "4c9b2f1d834c96e810250f35cbfddcb0295daa3b690019e89ad03295240460a5",
+    "square.outlined.svg": "e76f3b715ce539959278b8300993a4aa4a3124fed40d4da9d3fdc8ee9711d000",
+    "square.png": "c5f3b1b1f1ee8cd38ec047f81bb741ecbcc0f52aa9cbe32fa396c6a5ca4f0140"
+  }
+}

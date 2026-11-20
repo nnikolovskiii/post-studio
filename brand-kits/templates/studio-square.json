@@ -1,0 +1,159 @@
+{
+ "id": "studio/square",
+ "kit": "studio",
+ "name": "Web shop post · square (old pack)",
+ "description": "templates/studio/ig-1080.svg: the old brick + Bitter pack.",
+ "assets": {},
+ "doc": {
+  "schema": "post-studio/2",
+  "id": "prj_import",
+  "title": "Web shop post · square (old pack)",
+  "lang": "mk",
+  "brandKit": "studio",
+  "frames": [
+   {
+    "id": "square",
+    "name": "Square",
+    "w": 1080,
+    "h": 1080,
+    "children": [
+     {
+      "id": "art",
+      "type": "group",
+      "role": "art",
+      "x": 72,
+      "y": 136,
+      "w": 936,
+      "h": 568,
+      "children": [],
+      "name": "art well 936×568"
+     },
+     {
+      "id": "kicker",
+      "type": "text",
+      "x": 135,
+      "y": 68.64,
+      "w": 358.77,
+      "h": 36,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "Source Sans 3",
+       "weight": 600,
+       "size": 30,
+       "fill": {
+        "token": "studio.muted-ink"
+       }
+      },
+      "spans": [
+       {
+        "text": "За мали бизниси во Скопје"
+       }
+      ],
+      "role": "kicker"
+     },
+     {
+      "id": "headline",
+      "type": "text",
+      "x": 135,
+      "y": 727.88,
+      "w": 801.864,
+      "h": 160,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "Bitter",
+       "weight": 700,
+       "size": 72,
+       "fill": {
+        "token": "studio.ink"
+       },
+       "lineHeight": 1.1111111111111112
+      },
+      "spans": [
+       {
+        "text": "Веб-сајтови што носат\nнарачки и термини."
+       }
+      ],
+      "role": "headline"
+     },
+     {
+      "id": "sub",
+      "type": "text",
+      "x": 135,
+      "y": 903.168,
+      "w": 414.432,
+      "h": 43.2,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "Source Sans 3",
+       "weight": 600,
+       "size": 36,
+       "fill": {
+        "token": "studio.ink"
+       }
+      },
+      "spans": [
+       {
+        "text": "Кодот и доменот се ваши."
+       }
+      ],
+      "role": "sub"
+     },
+     {
+      "id": "accent",
+      "type": "group",
+      "role": "accent",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "children": [],
+      "name": "Accent (put the one accent object here)"
+     },
+     {
+      "id": "footer",
+      "type": "text",
+      "x": 72,
+      "y": 984.288,
+      "w": 490.88,
+      "h": 31.2,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "Source Sans 3",
+       "weight": 600,
+       "size": 26,
+       "fill": {
+        "token": "studio.muted-ink"
+       }
+      },
+      "spans": [
+       {
+        "text": "Web shop · example.com/landing1"
+       }
+      ],
+      "role": "footer"
+     }
+    ],
+    "meta": {
+     "source": "post.svg",
+     "mode": "template"
+    },
+    "background": {
+     "color": {
+      "token": "studio.paper"
+     }
+    },
+    "guides": "studio/ig-1080"
+   }
+  ],
+  "meta": {
+   "template": {
+    "id": "studio/square",
+    "source": "social-posts/templates/studio/ig-1080.svg"
+   }
+  }
+ }
+}

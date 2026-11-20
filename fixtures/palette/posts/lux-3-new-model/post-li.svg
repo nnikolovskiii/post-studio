@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+
+
+
+
+
+
+<rect id="paper" width="1080" height="1350" fill="#FCFAF6" />
+<g id="guides" display="none" fill="none" stroke="#305880" stroke-width="2">
+  <rect x="80" y="96" width="133.333" height="1134" fill="#305880" fill-opacity="0.07" stroke="none" />
+  <rect x="237.333" y="96" width="133.333" height="1134" fill="#305880" fill-opacity="0.07" stroke="none" />
+  <rect x="394.667" y="96" width="133.333" height="1134" fill="#305880" fill-opacity="0.07" stroke="none" />
+  <rect x="552" y="96" width="133.333" height="1134" fill="#305880" fill-opacity="0.07" stroke="none" />
+  <rect x="709.333" y="96" width="133.333" height="1134" fill="#305880" fill-opacity="0.07" stroke="none" />
+  <rect x="866.667" y="96" width="133.333" height="1134" fill="#305880" fill-opacity="0.07" stroke="none" />
+  <rect x="80" y="96" width="920" height="1134" />
+  <line x1="108" y1="0" x2="108" y2="1350" stroke-dasharray="12 8" />
+  <line x1="972" y1="0" x2="972" y2="1350" stroke-dasharray="12 8" />
+  <rect x="108" y="360" width="864" height="740" stroke-width="4" />
+  <line x1="108" y1="360" x2="972" y2="1100" stroke-opacity="0.35" />
+  <line x1="972" y1="360" x2="108" y2="1100" stroke-opacity="0.35" />
+  <rect x="108" y="144" width="864" height="208" fill="#305880" fill-opacity="0.12" />
+  <rect x="108" y="1148" width="864" height="40" fill="#305880" fill-opacity="0.12" />
+  <line x1="0" y1="1270" x2="1080" y2="1270" stroke-width="3" />
+  <rect x="920" y="1230" width="160" height="120" fill="#305880" fill-opacity="0.18" stroke-width="3" />
+  <line x1="920" y1="1230" x2="920" y2="1230" stroke-width="1.5" />
+  <line x1="920" y1="1254" x2="944" y2="1230" stroke-width="1.5" />
+  <line x1="920" y1="1278" x2="968" y2="1230" stroke-width="1.5" />
+  <line x1="920" y1="1302" x2="992" y2="1230" stroke-width="1.5" />
+  <line x1="920" y1="1326" x2="1016" y2="1230" stroke-width="1.5" />
+  <line x1="920" y1="1350" x2="1040" y2="1230" stroke-width="1.5" />
+  <line x1="944" y1="1350" x2="1064" y2="1230" stroke-width="1.5" />
+  <line x1="968" y1="1350" x2="1080" y2="1238" stroke-width="1.5" />
+  <line x1="992" y1="1350" x2="1080" y2="1262" stroke-width="1.5" />
+  <line x1="1016" y1="1350" x2="1080" y2="1286" stroke-width="1.5" />
+  <line x1="1040" y1="1350" x2="1080" y2="1310" stroke-width="1.5" />
+  <line x1="1064" y1="1350" x2="1080" y2="1334" stroke-width="1.5" />
+  <text x="116" y="384" font-family="'IBM Plex Sans'" font-size="18" font-weight="600" fill="#305880" stroke="none">chart well 864×740 · translate(108 360)</text>
+  <text x="972" y="139" text-anchor="end" font-family="'IBM Plex Sans'" font-size="18" font-weight="600" fill="#305880" stroke="none">headline 60/68 · ≤ 3 lines</text>
+  <text x="972" y="1143" text-anchor="end" font-family="'IBM Plex Sans'" font-size="18" font-weight="600" fill="#305880" stroke="none">source 24</text>
+  <text x="114" y="1344" font-family="'IBM Plex Sans'" font-size="18" font-weight="600" fill="#305880" stroke="none">safe x 108–972</text>
+  <text x="928" y="1252" font-family="'IBM Plex Sans'" font-size="18" font-weight="600" fill="#305880" stroke="none">keep-out</text>
+  <text x="600" y="1264" font-family="'IBM Plex Sans'" font-size="18" font-weight="600" fill="#305880" stroke="none">footer baseline y 1270</text>
+</g>
+<g id="art" transform="translate(108 360)"><title>M3 Qwen3.7-Max model card, snapshot 2026-10-17</title>
+<text id="fig-gen" x="0" y="190" font-family="'IBM Plex Mono'" font-weight="600" font-size="220" fill="#190F0B">68<tspan font-size="132">%</tspan></text>
+<text id="fig-avg" x="448" y="190" font-family="'IBM Plex Mono'" font-weight="600" font-size="132" fill="#190F0B">13</text>
+<text id="fig1-l1" x="0" y="230" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#190F0B">generation, % good</text>
+<text id="fig1-l2" x="0" y="272" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#655B56">higher is better</text>
+<text id="fig1-l3" x="0" y="314" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#655B56">rank 12 of 44</text>
+<text id="fig2-l1" x="448" y="230" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#190F0B">average errors per 100</text>
+<text id="fig2-l2" x="448" y="272" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#655B56">lower is better</text>
+<text id="fig2-l3" x="448" y="314" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#655B56">joint 17th of 46</text>
+<path d="M0 346H864" stroke="#E2DDD5" stroke-width="2" />
+<text id="strip-label-1" x="0" y="409" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#190F0B">Gemini 3 Flash Preview</text>
+<path d="M352 378H782A4 4 0 0 1 786 382V414A4 4 0 0 1 782 418H352Z" fill="#F3F0EA" />
+<path d="M352 378H738.6A4 4 0 0 1 742.6 382V414A4 4 0 0 1 738.6 418H352Z" fill="#190F0B" />
+<text id="strip-value-1" x="864" y="409" font-family="'IBM Plex Mono'" font-weight="500" font-size="30" fill="#190F0B" text-anchor="end">90%</text>
+<text id="strip-label-2" x="0" y="481" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#190F0B">GPT-5.5</text>
+<path d="M352 450H782A4 4 0 0 1 786 454V486A4 4 0 0 1 782 490H352Z" fill="#F3F0EA" />
+<path d="M352 450H734.26A4 4 0 0 1 738.26 454V486A4 4 0 0 1 734.26 490H352Z" fill="#190F0B" />
+<text id="strip-value-2" x="864" y="481" font-family="'IBM Plex Mono'" font-weight="500" font-size="30" fill="#190F0B" text-anchor="end">89%</text>
+<text id="strip-label-3" x="0" y="553" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#190F0B">GPT-5.4 mini</text>
+<path d="M352 522H782A4 4 0 0 1 786 526V558A4 4 0 0 1 782 562H352Z" fill="#F3F0EA" />
+<path d="M352 522H712.56A4 4 0 0 1 716.56 526V558A4 4 0 0 1 712.56 562H352Z" fill="#190F0B" />
+<text id="strip-value-3" x="864" y="553" font-family="'IBM Plex Mono'" font-weight="500" font-size="30" fill="#190F0B" text-anchor="end">84%</text>
+<text id="strip-label-4" x="0" y="625" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#190F0B">Qwen3.6-Max-Preview</text>
+<path d="M352 594H782A4 4 0 0 1 786 598V630A4 4 0 0 1 782 634H352Z" fill="#F3F0EA" />
+<path d="M352 594H682.18A4 4 0 0 1 686.18 598V630A4 4 0 0 1 682.18 634H352Z" fill="#190F0B" />
+<text id="strip-value-4" x="864" y="625" font-family="'IBM Plex Mono'" font-weight="500" font-size="30" fill="#190F0B" text-anchor="end">77%</text>
+<text id="strip-label-5" x="0" y="697" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#190F0B">Qwen3.7-Max</text>
+<path d="M352 666H782A4 4 0 0 1 786 670V702A4 4 0 0 1 782 706H352Z" fill="#F3F0EA" />
+</g>
+<g id="type">
+  <text id="kicker" x="108" y="120" font-family="'IBM Plex Mono'" font-weight="500" font-size="26" fill="#655B56" letter-spacing="0.06em">LUX INDEX · LATEST MODEL</text>
+  <text id="headline-1" x="108" y="200" font-family="'IBM Plex Sans'" font-weight="600" font-size="60" fill="#190F0B">Qwen3.7-Max scores 68%;</text>
+  <text id="headline-2" x="108" y="268" font-family="'IBM Plex Sans'" font-weight="600" font-size="60" fill="#190F0B">its predecessor had 77%.</text>
+  <text id="source" x="108" y="1144" font-family="'IBM Plex Sans'" font-weight="400" font-size="24" fill="#655B56">Source: demo.example · snapshot 2026-10-17 · added 2026-05-21</text>
+<text id="source-2" x="108" y="1176" font-family="'IBM Plex Sans'" font-weight="400" font-size="24" fill="#655B56">Judges: GPT-5.2 (generation), Gemini 3 Flash Preview (errors)</text></g>
+<g id="accent"><g transform="translate(108 360)"><path d="M352 666H643.12A4 4 0 0 1 647.12 670V702A4 4 0 0 1 643.12 706H352Z" fill="#AC1922" />
+<text id="strip-value-5" x="864" y="697" font-family="'IBM Plex Mono'" font-weight="500" font-size="30" fill="#AC1922" text-anchor="end">68%</text>
+</g></g>
+<g id="footer">
+  <image id="logo" x="80" y="1222" width="56" height="56" href="file:///home/user/workspace/lux-all/lux/lux-frontend/public/logo-light.png" style="mix-blend-mode:multiply" />
+  <text id="footer" x="148" y="1270" font-family="'IBM Plex Sans'" font-weight="600" font-size="26" fill="#190F0B">Lux Index · demo.example</text>
+</g>
+</svg>

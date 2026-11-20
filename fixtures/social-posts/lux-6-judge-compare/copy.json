@@ -1,0 +1,28 @@
+{
+  "kicker": "ГЕНЕРИРАЊЕ НА МАКЕДОНСКИ · ДВАЈЦА ОЦЕНУВАЧИ",
+  "headline": [
+    {
+      "spans": [
+        {
+          "text": "Исти модели."
+        }
+      ]
+    },
+    {
+      "spans": [
+        {
+          "text": "Различни оценки."
+        }
+      ]
+    }
+  ],
+  "sub": "% добри одговори · повисоко е подобро",
+  "source": [
+    "Извор: demo.example · генерирање · 2026-10-29"
+  ],
+  "footer": "LUX · demo.example",
+  "status": "DRAFT — необјавено",
+  "language": "mk",
+  "primary_caption": "caption.mk.txt",
+  "instagram_caption": "caption.ig.mk.txt"
+}

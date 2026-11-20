@@ -1,0 +1,330 @@
+{
+ "id": "lux/post",
+ "kit": "lux",
+ "name": "LUX post · square + LinkedIn",
+ "description": "templates/lux/ig-1080.svg + li-1080x1350.svg: kicker, 2–3 line headline, chart well (empty), source line, logo + footer.",
+ "assets": {
+  "sha256:a96a83f01623297727e3c75bfaa5702f4cf5ba38e510be2837c4998c47e4654b": "assets/a96a83f016232977.png"
+ },
+ "doc": {
+  "schema": "post-studio/2",
+  "id": "prj_import",
+  "title": "LUX post · square + LinkedIn",
+  "lang": "en",
+  "brandKit": "lux",
+  "frames": [
+   {
+    "id": "square",
+    "name": "Square",
+    "w": 1080,
+    "h": 1080,
+    "children": [
+     {
+      "id": "art",
+      "type": "group",
+      "role": "art",
+      "x": 135,
+      "y": 312,
+      "w": 810,
+      "h": 560,
+      "children": [],
+      "name": "chart well 810×560"
+     },
+     {
+      "id": "kicker",
+      "type": "text",
+      "x": 135,
+      "y": 70.65,
+      "w": 549.12,
+      "h": 31.2,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "IBM Plex Mono",
+       "weight": 500,
+       "size": 26,
+       "fill": {
+        "token": "lux.muted"
+       },
+       "letterSpacing": 1.56
+      },
+      "spans": [
+       {
+        "text": "LUX INDEX · GENERATION"
+       }
+      ],
+      "role": "kicker"
+     },
+     {
+      "id": "headline",
+      "type": "text",
+      "x": 135,
+      "y": 127.5,
+      "w": 797.76,
+      "h": 136,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "IBM Plex Sans",
+       "weight": 600,
+       "size": 60,
+       "fill": {
+        "token": "lux.ink"
+       },
+       "lineHeight": 1.1333333333333333
+      },
+      "spans": [
+       {
+        "text": "How well do AI models write\nMacedonian? The top 8."
+       }
+      ],
+      "role": "headline"
+     },
+     {
+      "id": "source",
+      "type": "text",
+      "x": 135,
+      "y": 904.6,
+      "w": 744.912,
+      "h": 28.8,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "IBM Plex Sans",
+       "weight": 400,
+       "size": 24,
+       "fill": {
+        "token": "lux.muted"
+       }
+      },
+      "spans": [
+       {
+        "text": "Source: demo.example · generation · judge GPT-5.2 · snapshot YYYY-MM-DD"
+       }
+      ],
+      "role": "source"
+     },
+     {
+      "id": "accent",
+      "type": "group",
+      "role": "accent",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "children": [],
+      "name": "Accent (put the one accent object here)"
+     },
+     {
+      "id": "logo",
+      "type": "image",
+      "asset": "sha256:a96a83f01623297727e3c75bfaa5702f4cf5ba38e510be2837c4998c47e4654b",
+      "x": 72,
+      "y": 960,
+      "w": 56,
+      "h": 56,
+      "fit": "contain",
+      "role": "logo",
+      "meta": {
+       "source": "/home/user/workspace/lux-all/lux/lux-frontend/public/logo-light.png",
+       "note": "mix-blend-mode multiply onto #FCFAF6 baked into the pixels"
+      }
+     },
+     {
+      "id": "footer",
+      "type": "text",
+      "x": 140,
+      "y": 982.65,
+      "w": 368.472,
+      "h": 31.2,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "IBM Plex Sans",
+       "weight": 600,
+       "size": 26,
+       "fill": {
+        "token": "lux.ink"
+       }
+      },
+      "spans": [
+       {
+        "text": "Lux Index · demo.example"
+       }
+      ],
+      "role": "footer"
+     }
+    ],
+    "meta": {
+     "source": "post.svg",
+     "mode": "template"
+    },
+    "background": {
+     "color": {
+      "token": "lux.paper"
+     }
+    },
+    "guides": "lux/ig-1080"
+   },
+   {
+    "id": "li",
+    "name": "LinkedIn",
+    "w": 1080,
+    "h": 1350,
+    "children": [
+     {
+      "id": "art-li",
+      "type": "group",
+      "role": "art",
+      "x": 108,
+      "y": 360,
+      "w": 864,
+      "h": 740,
+      "children": [],
+      "name": "chart well 864×740"
+     },
+     {
+      "id": "kicker-li",
+      "type": "text",
+      "x": 108,
+      "y": 94.65,
+      "w": 549.12,
+      "h": 31.2,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "IBM Plex Mono",
+       "weight": 500,
+       "size": 26,
+       "fill": {
+        "token": "lux.muted"
+       },
+       "letterSpacing": 1.56
+      },
+      "spans": [
+       {
+        "text": "LUX INDEX · GENERATION"
+       }
+      ],
+      "role": "kicker"
+     },
+     {
+      "id": "headline-li",
+      "type": "text",
+      "x": 108,
+      "y": 143.5,
+      "w": 638.7,
+      "h": 204,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "IBM Plex Sans",
+       "weight": 600,
+       "size": 60,
+       "fill": {
+        "token": "lux.ink"
+       },
+       "lineHeight": 1.1333333333333333
+      },
+      "spans": [
+       {
+        "text": "How well do AI models\nwrite Macedonian?\nThe top 8, today."
+       }
+      ],
+      "role": "headline"
+     },
+     {
+      "id": "source-li",
+      "type": "text",
+      "x": 108,
+      "y": 1152.6,
+      "w": 744.912,
+      "h": 28.8,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "IBM Plex Sans",
+       "weight": 400,
+       "size": 24,
+       "fill": {
+        "token": "lux.muted"
+       }
+      },
+      "spans": [
+       {
+        "text": "Source: demo.example · generation · judge GPT-5.2 · snapshot YYYY-MM-DD"
+       }
+      ],
+      "role": "source"
+     },
+     {
+      "id": "accent-li",
+      "type": "group",
+      "role": "accent",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "children": [],
+      "name": "Accent (put the one accent object here)"
+     },
+     {
+      "id": "logo-li",
+      "type": "image",
+      "asset": "sha256:a96a83f01623297727e3c75bfaa5702f4cf5ba38e510be2837c4998c47e4654b",
+      "x": 80,
+      "y": 1222,
+      "w": 56,
+      "h": 56,
+      "fit": "contain",
+      "role": "logo",
+      "meta": {
+       "source": "/home/user/workspace/lux-all/lux/lux-frontend/public/logo-light.png",
+       "note": "mix-blend-mode multiply onto #FCFAF6 baked into the pixels"
+      }
+     },
+     {
+      "id": "footer-li",
+      "type": "text",
+      "x": 148,
+      "y": 1244.65,
+      "w": 368.472,
+      "h": 31.2,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "IBM Plex Sans",
+       "weight": 600,
+       "size": 26,
+       "fill": {
+        "token": "lux.ink"
+       }
+      },
+      "spans": [
+       {
+        "text": "Lux Index · demo.example"
+       }
+      ],
+      "role": "footer"
+     }
+    ],
+    "meta": {
+     "source": "post-li.svg",
+     "mode": "template"
+    },
+    "background": {
+     "color": {
+      "token": "lux.paper"
+     }
+    },
+    "guides": "lux/li-1350"
+   }
+  ],
+  "meta": {
+   "template": {
+    "id": "lux/post",
+    "source": "social-posts/templates/lux/ig-1080.svg + lux/li-1080x1350.svg"
+   }
+  }
+ }
+}

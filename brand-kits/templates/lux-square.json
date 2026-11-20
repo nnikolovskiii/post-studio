@@ -1,0 +1,177 @@
+{
+ "id": "lux/square",
+ "kit": "lux",
+ "name": "LUX post · square only",
+ "description": "templates/lux/ig-1080.svg.",
+ "assets": {
+  "sha256:a96a83f01623297727e3c75bfaa5702f4cf5ba38e510be2837c4998c47e4654b": "assets/a96a83f016232977.png"
+ },
+ "doc": {
+  "schema": "post-studio/2",
+  "id": "prj_import",
+  "title": "LUX post · square only",
+  "lang": "en",
+  "brandKit": "lux",
+  "frames": [
+   {
+    "id": "square",
+    "name": "Square",
+    "w": 1080,
+    "h": 1080,
+    "children": [
+     {
+      "id": "art",
+      "type": "group",
+      "role": "art",
+      "x": 135,
+      "y": 312,
+      "w": 810,
+      "h": 560,
+      "children": [],
+      "name": "chart well 810×560"
+     },
+     {
+      "id": "kicker",
+      "type": "text",
+      "x": 135,
+      "y": 70.65,
+      "w": 549.12,
+      "h": 31.2,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "IBM Plex Mono",
+       "weight": 500,
+       "size": 26,
+       "fill": {
+        "token": "lux.muted"
+       },
+       "letterSpacing": 1.56
+      },
+      "spans": [
+       {
+        "text": "LUX INDEX · GENERATION"
+       }
+      ],
+      "role": "kicker"
+     },
+     {
+      "id": "headline",
+      "type": "text",
+      "x": 135,
+      "y": 127.5,
+      "w": 797.76,
+      "h": 136,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "IBM Plex Sans",
+       "weight": 600,
+       "size": 60,
+       "fill": {
+        "token": "lux.ink"
+       },
+       "lineHeight": 1.1333333333333333
+      },
+      "spans": [
+       {
+        "text": "How well do AI models write\nMacedonian? The top 8."
+       }
+      ],
+      "role": "headline"
+     },
+     {
+      "id": "source",
+      "type": "text",
+      "x": 135,
+      "y": 904.6,
+      "w": 744.912,
+      "h": 28.8,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "IBM Plex Sans",
+       "weight": 400,
+       "size": 24,
+       "fill": {
+        "token": "lux.muted"
+       }
+      },
+      "spans": [
+       {
+        "text": "Source: demo.example · generation · judge GPT-5.2 · snapshot YYYY-MM-DD"
+       }
+      ],
+      "role": "source"
+     },
+     {
+      "id": "accent",
+      "type": "group",
+      "role": "accent",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "children": [],
+      "name": "Accent (put the one accent object here)"
+     },
+     {
+      "id": "logo",
+      "type": "image",
+      "asset": "sha256:a96a83f01623297727e3c75bfaa5702f4cf5ba38e510be2837c4998c47e4654b",
+      "x": 72,
+      "y": 960,
+      "w": 56,
+      "h": 56,
+      "fit": "contain",
+      "role": "logo",
+      "meta": {
+       "source": "/home/user/workspace/lux-all/lux/lux-frontend/public/logo-light.png",
+       "note": "mix-blend-mode multiply onto #FCFAF6 baked into the pixels"
+      }
+     },
+     {
+      "id": "footer",
+      "type": "text",
+      "x": 140,
+      "y": 982.65,
+      "w": 368.472,
+      "h": 31.2,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "IBM Plex Sans",
+       "weight": 600,
+       "size": 26,
+       "fill": {
+        "token": "lux.ink"
+       }
+      },
+      "spans": [
+       {
+        "text": "Lux Index · demo.example"
+       }
+      ],
+      "role": "footer"
+     }
+    ],
+    "meta": {
+     "source": "post.svg",
+     "mode": "template"
+    },
+    "background": {
+     "color": {
+      "token": "lux.paper"
+     }
+    },
+    "guides": "lux/ig-1080"
+   }
+  ],
+  "meta": {
+   "template": {
+    "id": "lux/square",
+    "source": "social-posts/templates/lux/ig-1080.svg"
+   }
+  }
+ }
+}

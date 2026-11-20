@@ -1,0 +1,26 @@
+{
+  "name": "@post-studio/import",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./paste": "./src/paste.ts"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@post-studio/brand": "workspace:*",
+    "@post-studio/schema": "workspace:*",
+    "@post-studio/text": "workspace:*",
+    "@resvg/resvg-js": "^2.6.2",
+    "@xmldom/xmldom": "^0.9",
+    "sharp": "^0.34"
+  },
+  "devDependencies": {
+    "@post-studio/ops": "workspace:*",
+    "@post-studio/render": "workspace:*",
+    "@post-studio/server": "workspace:*"
+  }
+}

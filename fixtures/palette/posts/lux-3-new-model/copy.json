@@ -1,0 +1,16 @@
+{
+  "kicker": "LUX INDEX · LATEST MODEL",
+  "headline": [
+    {"spans": [{"text": "Qwen3.7-Max scores 68%;"}]},
+    {"spans": [{"text": "its predecessor had 77%."}]}
+  ],
+  "sub": null,
+  "chip": null,
+  "source": [
+    "Source: demo.example · snapshot 2026-10-17 · added 2026-05-21",
+    "Judges: GPT-5.2 (generation), Gemini 3 Flash Preview (errors)"
+  ],
+  "footer": "Lux Index · demo.example",
+  "emphasis": null,
+  "linkedin": null
+}

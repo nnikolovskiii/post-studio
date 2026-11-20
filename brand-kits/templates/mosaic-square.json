@@ -1,0 +1,87 @@
+{
+ "id": "mosaic/square",
+ "kit": "mosaic",
+ "name": "Mosaic post · square",
+ "description": "PLAN-DAILY §7: paper, Alegreya headline on top, no footer; the art goes below.",
+ "assets": {},
+ "doc": {
+  "schema": "post-studio/2",
+  "id": "prj_import",
+  "title": "Mosaic post · square",
+  "lang": "mk",
+  "brandKit": "mosaic",
+  "frames": [
+   {
+    "id": "square",
+    "name": "Square",
+    "w": 1080,
+    "h": 1080,
+    "children": [
+     {
+      "id": "art",
+      "type": "group",
+      "role": "art",
+      "x": 72,
+      "y": 380,
+      "w": 936,
+      "h": 628,
+      "children": [],
+      "name": "art"
+     },
+     {
+      "id": "headline",
+      "type": "text",
+      "x": 135,
+      "y": 73.818,
+      "w": 626.808,
+      "h": 184,
+      "box": "auto-width",
+      "align": "left",
+      "style": {
+       "font": "Alegreya",
+       "weight": 700,
+       "size": 84,
+       "fill": {
+        "token": "mosaic.ink"
+       },
+       "lineHeight": 1.0952380952380953
+      },
+      "spans": [
+       {
+        "text": "Цената ја знаете\nпред да почнеме."
+       }
+      ],
+      "role": "headline"
+     },
+     {
+      "id": "accent",
+      "type": "group",
+      "role": "accent",
+      "x": 0,
+      "y": 0,
+      "w": 0,
+      "h": 0,
+      "children": [],
+      "name": "Accent (put the one accent object here)"
+     }
+    ],
+    "meta": {
+     "source": "post.svg",
+     "mode": "template"
+    },
+    "background": {
+     "color": {
+      "token": "mosaic.paper"
+     }
+    },
+    "guides": "mosaic/ig-1080"
+   }
+  ],
+  "meta": {
+   "template": {
+    "id": "mosaic/square",
+    "source": "PLAN-DAILY §7 (no social-posts template yet)"
+   }
+  }
+ }
+}

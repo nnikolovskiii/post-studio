@@ -1,0 +1,20 @@
+{
+  "name": "@post-studio/text",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "browser": "./src/browser.ts",
+      "default": "./src/index.ts"
+    }
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "harfbuzzjs": "^1.6.4",
+    "wawoff2": "^2.0.1",
+    "@post-studio/schema": "workspace:*"
+  }
+}

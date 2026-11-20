@@ -1,0 +1,30 @@
+{
+  "name": "@post-studio/editor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --port 5173 --strictPort",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@post-studio/brand": "workspace:*",
+    "@post-studio/import": "workspace:*",
+    "@post-studio/ops": "workspace:*",
+    "@post-studio/render": "workspace:*",
+    "@post-studio/schema": "workspace:*",
+    "@post-studio/text": "workspace:*",
+    "react": "^19",
+    "react-dom": "^19",
+    "zustand": "^5",
+    "@post-studio/motion": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^5",
+    "vite": "^7",
+    "playwright-core": "^1"
+  }
+}

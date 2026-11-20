@@ -1,0 +1,599 @@
+{
+ "source": "social-posts/posts/lux-6-judge-compare/figma/editable-layout.json (Chrome getComputedTextLength, job 239)",
+ "items": [
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-01-copy",
+   "text": "LUX · demo.example",
+   "font": "IBM Plex Sans",
+   "weight": 600,
+   "size": 27.0,
+   "advance": 257.016
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-02-copy",
+   "text": "ГЕНЕРИРАЊЕ НА МАКЕДОНСКИ",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 18.0,
+   "advance": 259.2
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-03-copy",
+   "text": "Исти модели.",
+   "font": "IBM Plex Sans",
+   "weight": 600,
+   "size": 50.0,
+   "advance": 326.85
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-04-copy",
+   "text": "Различни оценки.",
+   "font": "IBM Plex Sans",
+   "weight": 600,
+   "size": 50.0,
+   "advance": 437.45000000000005
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-05-copy",
+   "text": "% добри одговори · повисоко е подобро",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 26.0,
+   "advance": 499.798
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-06-copy",
+   "text": "ОЦЕНУВАЧИ",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 20.0,
+   "advance": 108.0
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-07-copy",
+   "text": "GPT-5.2",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 28.0,
+   "advance": 105.0
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-08-copy",
+   "text": "GPT-6 Luna · high",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 27.0,
+   "advance": 218.349
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-09-copy",
+   "text": "МОДЕЛ",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 23.0,
+   "advance": 69.0
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-10-copy",
+   "text": "0",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 23.0,
+   "advance": 13.799999999999999
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-11-copy",
+   "text": "100%",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 23.0,
+   "advance": 55.199999999999996
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-12-copy",
+   "text": "GPT-6 Luna",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 127.488
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-13-openai-gpt-6-luna",
+   "text": "91",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-14-openai-gpt-6-luna",
+   "text": "65",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-15-copy",
+   "text": "Gemini 3 Flash Preview",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 256.92
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-16-google-gemini-3-flash-preview",
+   "text": "90",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-17-google-gemini-3-flash-preview",
+   "text": "38",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-18-copy",
+   "text": "GPT-5.5",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 90.0
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-19-openai-gpt-5.5",
+   "text": "89",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-20-openai-gpt-5.5",
+   "text": "70",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-21-copy",
+   "text": "GPT-5.4 mini",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 143.472
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-22-openai-gpt-5.4-mini",
+   "text": "84",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-23-openai-gpt-5.4-mini",
+   "text": "52",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-24-copy",
+   "text": "Gemini 3.5 Flash",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 184.56
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-25-google-gemini-3.5-flash",
+   "text": "83",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-26-google-gemini-3.5-flash",
+   "text": "39",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-27-copy",
+   "text": "GPT-5.2",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 90.0
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-28-openai-gpt-5.2",
+   "text": "79",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-29-openai-gpt-5.2",
+   "text": "40",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-30-copy",
+   "text": "DeepSeek V4 Pro",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 189.528
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-31-deepseek-deepseek-v4-pro",
+   "text": "77",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-32-deepseek-deepseek-v4-pro",
+   "text": "33",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-33-copy",
+   "text": "Qwen3.6-Max Preview",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 247.776
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-35-qwen-qwen-3.6-max-preview",
+   "text": "29",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-36-copy",
+   "text": "Gemini 3 Pro Preview",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 234.816
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-37-google-gemini-3-pro-preview",
+   "text": "74",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-38-google-gemini-3-pro-preview",
+   "text": "24",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-39-copy",
+   "text": "Gemini 3.1 Pro Preview",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 256.128
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-41-google-gemini-3.1-pro-preview",
+   "text": "32",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-42-copy",
+   "text": "Claude Opus 4.6",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 180.768
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-43-anthropic-claude-opus-4.6",
+   "text": "71",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-44-anthropic-claude-opus-4.6",
+   "text": "21",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-45-copy",
+   "text": "DeepSeek V4 Flash",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 211.632
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-48-copy",
+   "text": "Qwen3.7-Max",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 154.104
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-49-qwen-qwen3.7-max",
+   "text": "68",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-50-qwen-qwen3.7-max",
+   "text": "18",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-51-copy",
+   "text": "MiMo-V2-Pro",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 144.672
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-52-xiaomi-mimo-v2-pro",
+   "text": "64",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-54-copy",
+   "text": "Qwen3.6-Plus",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 156.312
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-55-qwen-qwen3.6-plus",
+   "text": "56",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-56-qwen-qwen3.6-plus",
+   "text": "14",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-57-copy",
+   "text": "DeepSeek V3.2 Speciale",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 267.288
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-58-deepseek-deepseek-v3.2-speciale",
+   "text": "49",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-59-deepseek-deepseek-v3.2-speciale",
+   "text": "10",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-60-copy",
+   "text": "Kimi K2.6",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 106.944
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-62-moonshotai-kimi-k2.6",
+   "text": "12",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-63-copy",
+   "text": "Qwen3.5-397B-A17B",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 237.312
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-64-qwen-qwen3.5-397b-a17b",
+   "text": "47",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-65-qwen-qwen3.5-397b-a17b",
+   "text": "9",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 13.2
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-66-copy",
+   "text": "GPT-5.4 nano",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 24.0,
+   "advance": 150.168
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-67-openai-gpt-5.4-nano",
+   "text": "43",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 26.4
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-68-openai-gpt-5.4-nano",
+   "text": "7",
+   "font": "IBM Plex Mono",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 13.2
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-69-copy",
+   "text": "19 заеднички модели · по 100 одговори за секој оценувач",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 23.0,
+   "advance": 640.987
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-70-copy",
+   "text": "Извор: demo.example · генерирање · 2026-10-29",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 22.0,
+   "advance": 514.109
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-71-copy",
+   "text": "demo.example",
+   "font": "IBM Plex Sans",
+   "weight": 600,
+   "size": 23.0,
+   "advance": 157.891
+  },
+  {
+   "frame": "LUX / Square / DRAFT",
+   "id": "text-72-copy",
+   "text": "DRAFT — необјавено",
+   "font": "IBM Plex Sans",
+   "weight": 500,
+   "size": 23.0,
+   "advance": 224.733
+  }
+ ]
+}

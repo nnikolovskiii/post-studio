@@ -1,0 +1,13 @@
+{
+  "kicker": "LUX INDEX · GENERATION",
+  "headline": [
+    {"spans": [{"text": "Only 4 of 44 models clear"}]},
+    {"spans": [{"text": "80% at writing Macedonian."}]}
+  ],
+  "sub": null,
+  "chip": null,
+  "source": ["Source: demo.example · generation · judge GPT-5.2 · snapshot 2026-10-17"],
+  "footer": "Lux Index · demo.example",
+  "emphasis": null,
+  "linkedin": null
+}

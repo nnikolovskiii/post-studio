@@ -1,0 +1,13 @@
+{
+  "kicker": "За родители и негуватели",
+  "headline": [
+    {"spans": [{"text": "Направете ги"}]},
+    {"spans": [{"text": "картичките лични."}]}
+  ],
+  "sub": "Ваша фотографија, ваш наслов, ваш глас.",
+  "chip": null,
+  "source": null,
+  "footer": "Kites · app.demo.example",
+  "emphasis": null,
+  "linkedin": null
+}

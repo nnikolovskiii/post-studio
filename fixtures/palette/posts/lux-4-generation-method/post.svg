@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+
+
+
+
+
+
+<rect id="paper" width="1080" height="1080" fill="#FCFAF6" />
+<g id="guides" display="none" fill="none" stroke="#305880" stroke-width="2">
+  <rect x="72" y="72" width="136" height="936" fill="#305880" fill-opacity="0.07" stroke="none" />
+  <rect x="232" y="72" width="136" height="936" fill="#305880" fill-opacity="0.07" stroke="none" />
+  <rect x="392" y="72" width="136" height="936" fill="#305880" fill-opacity="0.07" stroke="none" />
+  <rect x="552" y="72" width="136" height="936" fill="#305880" fill-opacity="0.07" stroke="none" />
+  <rect x="712" y="72" width="136" height="936" fill="#305880" fill-opacity="0.07" stroke="none" />
+  <rect x="872" y="72" width="136" height="936" fill="#305880" fill-opacity="0.07" stroke="none" />
+  <rect x="72" y="72" width="936" height="936" />
+  <line x1="135" y1="0" x2="135" y2="1080" stroke-dasharray="12 8" />
+  <line x1="945" y1="0" x2="945" y2="1080" stroke-dasharray="12 8" />
+  <rect x="135" y="312" width="810" height="560" stroke-width="4" />
+  <line x1="135" y1="312" x2="945" y2="872" stroke-opacity="0.35" />
+  <line x1="945" y1="312" x2="135" y2="872" stroke-opacity="0.35" />
+  <rect x="135" y="136" width="810" height="132" fill="#305880" fill-opacity="0.12" />
+  <rect x="135" y="904" width="810" height="36" fill="#305880" fill-opacity="0.12" />
+  <line x1="0" y1="1008" x2="1080" y2="1008" stroke-width="3" />
+  <rect x="920" y="960" width="160" height="120" fill="#305880" fill-opacity="0.18" stroke-width="3" />
+  <line x1="920" y1="960" x2="920" y2="960" stroke-width="1.5" />
+  <line x1="920" y1="984" x2="944" y2="960" stroke-width="1.5" />
+  <line x1="920" y1="1008" x2="968" y2="960" stroke-width="1.5" />
+  <line x1="920" y1="1032" x2="992" y2="960" stroke-width="1.5" />
+  <line x1="920" y1="1056" x2="1016" y2="960" stroke-width="1.5" />
+  <line x1="920" y1="1080" x2="1040" y2="960" stroke-width="1.5" />
+  <line x1="944" y1="1080" x2="1064" y2="960" stroke-width="1.5" />
+  <line x1="968" y1="1080" x2="1080" y2="968" stroke-width="1.5" />
+  <line x1="992" y1="1080" x2="1080" y2="992" stroke-width="1.5" />
+  <line x1="1016" y1="1080" x2="1080" y2="1016" stroke-width="1.5" />
+  <line x1="1040" y1="1080" x2="1080" y2="1040" stroke-width="1.5" />
+  <line x1="1064" y1="1080" x2="1080" y2="1064" stroke-width="1.5" />
+  <text x="143" y="336" font-family="'IBM Plex Sans'" font-size="18" font-weight="600" fill="#305880" stroke="none">chart well 810×560 · translate(135 312)</text>
+  <text x="945" y="131" text-anchor="end" font-family="'IBM Plex Sans'" font-size="18" font-weight="600" fill="#305880" stroke="none">headline 60/68 · ≤ 2 lines</text>
+  <text x="945" y="899" text-anchor="end" font-family="'IBM Plex Sans'" font-size="18" font-weight="600" fill="#305880" stroke="none">source 24</text>
+  <text x="141" y="1074" font-family="'IBM Plex Sans'" font-size="18" font-weight="600" fill="#305880" stroke="none">safe x 135–945</text>
+  <text x="928" y="982" font-family="'IBM Plex Sans'" font-size="18" font-weight="600" fill="#305880" stroke="none">keep-out</text>
+  <text x="600" y="1002" font-family="'IBM Plex Sans'" font-size="18" font-weight="600" fill="#305880" stroke="none">footer baseline y 1008</text>
+</g>
+<g id="art" transform="translate(135 312)"><title>LUX generation benchmark method</title>
+<rect x="10" y="45" width="285" height="400" rx="20" fill="#FEFDFC" stroke="#E2DDD5" stroke-width="2" />
+<text x="35" y="91" font-family="'IBM Plex Mono'" font-weight="500" font-size="24" letter-spacing="0.04em" fill="#655B56">PER MODEL</text>
+<g transform="translate(35 0)" />
+<text x="35" y="224" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#190F0B">open questions</text>
+<rect x="35" y="258" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="53" y="258" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="71" y="258" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="89" y="258" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="107" y="258" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="125" y="258" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="143" y="258" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="161" y="258" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="179" y="258" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="197" y="258" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="35" y="276" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="53" y="276" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="71" y="276" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="89" y="276" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="107" y="276" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="125" y="276" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="143" y="276" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="161" y="276" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="179" y="276" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="197" y="276" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="35" y="294" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="53" y="294" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="71" y="294" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="89" y="294" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="107" y="294" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="125" y="294" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="143" y="294" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="161" y="294" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="179" y="294" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="197" y="294" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="35" y="312" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="53" y="312" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="71" y="312" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="89" y="312" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="107" y="312" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="125" y="312" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="143" y="312" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="161" y="312" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="179" y="312" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="197" y="312" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="35" y="330" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="53" y="330" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="71" y="330" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="89" y="330" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="107" y="330" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="125" y="330" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="143" y="330" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="161" y="330" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="179" y="330" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="197" y="330" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="35" y="348" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="53" y="348" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="71" y="348" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="89" y="348" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="107" y="348" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="125" y="348" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="143" y="348" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="161" y="348" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="179" y="348" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="197" y="348" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="35" y="366" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="53" y="366" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="71" y="366" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="89" y="366" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="107" y="366" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="125" y="366" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="143" y="366" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="161" y="366" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="179" y="366" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="197" y="366" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="35" y="384" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="53" y="384" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="71" y="384" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="89" y="384" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="107" y="384" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="125" y="384" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="143" y="384" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="161" y="384" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="179" y="384" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="197" y="384" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="35" y="402" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="53" y="402" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="71" y="402" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="89" y="402" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="107" y="402" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="125" y="402" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="143" y="402" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="161" y="402" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="179" y="402" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="197" y="402" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="35" y="420" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="53" y="420" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="71" y="420" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="89" y="420" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="107" y="420" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="125" y="420" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="143" y="420" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="161" y="420" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="179" y="420" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<rect x="197" y="420" width="13" height="13" rx="2" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="1" />
+<path d="M301 246H317M311 240L317 246L311 252" fill="none" stroke="#190F0B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="324" y="45" width="476" height="400" rx="20" fill="#FEFDFC" stroke="#E2DDD5" stroke-width="2" />
+<text x="354" y="91" font-family="'IBM Plex Mono'" font-weight="500" font-size="24" letter-spacing="0.04em" fill="#655B56">ASSESSED FOR</text>
+<text x="354" y="164" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#190F0B">Macedonian authenticity</text>
+<path d="M354 190H770" stroke="#E2DDD5" stroke-width="2" />
+<text x="354" y="250" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#190F0B">Grammatical accuracy</text>
+<path d="M354 276H770" stroke="#E2DDD5" stroke-width="2" />
+<text x="354" y="336" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#190F0B">Natural style</text>
+<path d="M354 362H770" stroke="#E2DDD5" stroke-width="2" />
+<path d="M562 445V474" stroke="#655B56" stroke-width="2" />
+<rect x="372" y="478" width="380" height="64" rx="16" fill="#F3F0EA" stroke="#E2DDD5" stroke-width="2" />
+<text x="397" y="518" font-family="'IBM Plex Mono'" font-weight="500" font-size="22" fill="#655B56">SCORE</text>
+<text x="500" y="518" font-family="'IBM Plex Sans'" font-weight="600" font-size="28" fill="#190F0B">% good answers</text>
+</g>
+<g id="type">
+  <text id="kicker" x="135" y="96" font-family="'IBM Plex Mono'" font-weight="500" font-size="26" fill="#655B56" letter-spacing="0.06em">LUX INDEX · METHOD</text>
+  <text id="headline-1" x="135" y="184" font-family="'IBM Plex Sans'" font-weight="600" font-size="60" fill="#190F0B">What does LUX’s generation</text>
+  <text id="headline-2" x="135" y="252" font-family="'IBM Plex Sans'" font-weight="600" font-size="60" fill="#190F0B">benchmark assess?</text>
+  <text id="source" x="135" y="928" font-family="'IBM Plex Sans'" font-weight="400" font-size="24" fill="#655B56">Source: demo.example · generation · judge GPT-5.2 · snapshot 2026-10-17</text>
+</g>
+<g id="accent"><g transform="translate(135 312)"><g transform="translate(35 0)"><text x="0" y="190" font-family="'IBM Plex Mono'" font-weight="600" font-size="102" fill="#AC1922">100</text></g></g></g>
+<g id="footer">
+  <image id="logo" x="72" y="960" width="56" height="56" href="file:///home/user/workspace/lux-all/lux/lux-frontend/public/logo-light.png" style="mix-blend-mode:multiply" />
+  <text id="footer" x="140" y="1008" font-family="'IBM Plex Sans'" font-weight="600" font-size="26" fill="#190F0B">Lux Index · demo.example</text>
+</g>
+</svg>

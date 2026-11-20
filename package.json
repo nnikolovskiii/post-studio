@@ -1,0 +1,38 @@
+{
+  "name": "post-studio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9",
+    "@types/node": "^22",
+    "eslint": "^9",
+    "fast-check": "^4",
+    "tsx": "^4",
+    "typescript": "~5.9",
+    "typescript-eslint": "^8",
+    "vitest": "^3",
+    "@post-studio/brand": "workspace:*",
+    "@post-studio/import": "workspace:*",
+    "@post-studio/render": "workspace:*",
+    "@post-studio/server": "workspace:*",
+    "@post-studio/text": "workspace:*",
+    "@post-studio/editor": "workspace:*",
+    "@post-studio/ops": "workspace:*",
+    "@post-studio/schema": "workspace:*",
+    "@post-studio/motion": "workspace:*"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json && tsc -p apps/editor/tsconfig.json",
+    "lint": "eslint .",
+    "check": "pnpm typecheck && pnpm lint && pnpm test",
+    "serve": "tsx apps/server/src/main.ts",
+    "pstudio": "tsx apps/cli/src/main.ts",
+    "build:editor": "pnpm --filter @post-studio/editor build"
+  }
+}

@@ -1,0 +1,35 @@
+[Unit]
+Description=Post Studio hand-off dispatcher: one OptiBot agent job per "Hand to agent" (AGENTS.md "Hand-off dispatch")
+Documentation=file://%h/workspace/post-studio/docs/design.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/workspace
+# The container is not involved: this host process holds the dispatcher token (it can only call
+# /v1/dispatch/*), runs telegram-mcp/bin/sessions.py and reads the OptiBot token for the start ping.
+Environment=HOME=%h
+Environment=PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin
+Environment=PSTUDIO_URL=http://127.0.0.1:3472
+Environment=POST_STUDIO_WORKSPACE=%h/workspace
+Environment=POST_STUDIO_TELEGRAM_ENV=%h/.config/optibot/telegram-mcp.env
+# Same runner environment as optibot-sessions-sweep.service (60-s5-runner.conf).
+Environment=OPTIBOT_SESSIONS_HOME=%h/.local/share/optibot-sessions
+Environment=SESSIONS_OPTIBOT_INBOX_DB=%h/.config/optibot/telegram-mcp-data/inbox.sqlite
+Environment=SESSIONS_CODEXBOT_INBOX_DB=%h/.config/optibot/codex-telegram-mcp-data/inbox.sqlite
+Environment=SESSIONS_OPTIBOT_TELEGRAM_ENV=%h/.config/optibot/telegram-mcp.env
+Environment=SESSIONS_CODEXBOT_TELEGRAM_ENV=%h/.config/optibot/codex-telegram-mcp.env
+UnsetEnvironment=PSTUDIO_TOKEN
+# Optional overrides (POST_STUDIO_DISPATCH=off, _MAX, _POLL_SECONDS, _MODEL, _CHAT); no secrets.
+EnvironmentFile=-%h/.config/post-studio/dispatch.env
+ExecStart=%h/workspace/post-studio/apps/cli/bin/pstudio dispatch run
+Restart=always
+RestartSec=10
+# A start can take up to 120 s (sessions.py start); let it finish before a stop kills it.
+TimeoutStopSec=150
+KillMode=mixed
+Nice=5
+
+[Install]
+WantedBy=default.target

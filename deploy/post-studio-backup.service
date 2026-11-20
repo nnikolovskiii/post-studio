@@ -1,0 +1,10 @@
+[Unit]
+Description=Post Studio daily backup of the deployed data (SQLite snapshot + assets, keeps 14)
+Documentation=file://%h/workspace/post-studio/docs/design.md
+
+[Service]
+Type=oneshot
+Environment=POST_STUDIO_DATA=%h/.local/share/post-studio
+ExecStart=%h/workspace/post-studio/deploy/backup.sh
+Nice=10
+IOSchedulingClass=idle

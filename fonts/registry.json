@@ -1,0 +1,52 @@
+{
+  "note": "Registered fonts for Post Studio. Files are copies of social-posts/fonts (OFL, see LICENSES.md). Split families list subsets in lookup order; each character uses the first file that has a glyph for it (same idea as CSS unicode-range).",
+  "families": [
+    {
+      "family": "IBM Plex Sans",
+      "faces": [
+        { "weights": [400, 600], "axis": "wght", "files": ["IBMPlexSans-400-600-latin.woff2", "IBMPlexSans-400-600-cyrillic.woff2", "IBMPlexSans-400-600-cyrillic-ext.woff2"] }
+      ]
+    },
+    {
+      "family": "IBM Plex Mono",
+      "faces": [
+        { "weights": [500, 500], "files": ["IBMPlexMono-500-latin.woff2", "IBMPlexMono-500-cyrillic.woff2", "IBMPlexMono-500-cyrillic-ext.woff2"] },
+        { "weights": [600, 600], "files": ["IBMPlexMono-600-latin.woff2", "IBMPlexMono-600-cyrillic.woff2", "IBMPlexMono-600-cyrillic-ext.woff2"] }
+      ]
+    },
+    {
+      "family": "Rubik",
+      "faces": [
+        { "weights": [500, 700], "axis": "wght", "files": ["Rubik-500-700-latin.woff2", "Rubik-500-700-cyrillic.woff2", "Rubik-500-700-cyrillic-ext.woff2"] }
+      ]
+    },
+    {
+      "family": "Bitter",
+      "faces": [
+        { "weights": [600, 600], "files": ["Bitter-SemiBold.woff2"] },
+        { "weights": [700, 700], "files": ["Bitter-Bold.woff2"] }
+      ]
+    },
+    {
+      "family": "Source Sans 3",
+      "faces": [
+        { "weights": [400, 400], "files": ["SourceSans3-Regular.woff2"] },
+        { "weights": [600, 600], "files": ["SourceSans3-SemiBold.woff2"] }
+      ]
+    },
+    {
+      "family": "Alegreya",
+      "faces": [
+        { "weights": [600, 600], "files": ["Alegreya-SemiBold.woff2"] },
+        { "weights": [700, 700], "files": ["Alegreya-Bold.woff2"] }
+      ]
+    },
+    {
+      "family": "Alegreya Sans",
+      "faces": [
+        { "weights": [400, 400], "files": ["AlegreyaSans-Regular.woff2"] },
+        { "weights": [500, 500], "files": ["AlegreyaSans-Medium.woff2"] }
+      ]
+    }
+  ]
+}

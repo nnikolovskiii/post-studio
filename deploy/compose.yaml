@@ -1,0 +1,70 @@
+# Post Studio, deployed on the server (the live home server) behind Traefik (Phase 6, 2026-11-09).
+#   https://studio.example.com   (DNS: CNAME studio → home.example.com)
+#   http://127.0.0.1:3472                  (same container, loopback only, for agents on the server)
+#
+# Operate:   deploy/deploy.sh            (build + up + health check)
+#            docker compose -f deploy/compose.yaml ps | logs -f | restart
+# Data:      bind mount of ~/.local/share/post-studio (outside Syncthing). Never mount it into a
+#            second running server.
+# No secrets here: the editor password and agent tokens are hashes inside the SQLite file.
+name: post-studio
+
+services:
+  post-studio:
+    image: post-studio:latest
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    container_name: post-studio
+    restart: unless-stopped
+    init: true
+    user: "1000:1000"
+    read_only: true
+    security_opt: [no-new-privileges:true]
+    cap_drop: [ALL]
+    mem_limit: 1g
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "3" }
+    tmpfs:
+      # tsx keeps its transform cache in /tmp; `pstudio backup` stages its tarball there.
+      - /tmp:rw,nosuid,size=512m,mode=1777
+    environment:
+      POST_STUDIO_DATA: /data
+      POST_STUDIO_HOST: 0.0.0.0
+      POST_STUDIO_PORT: "3472"
+      POST_STUDIO_PUBLIC_URL: https://${POST_STUDIO_DOMAIN:-studio.example.com}
+      # Only Traefik (the proxy network) may set X-Forwarded-For / -Proto. That makes req.ip the
+      # real client, which the login back-off (5 wrong passwords a minute per IP) is keyed on.
+      POST_STUDIO_TRUST_PROXY: ${POST_STUDIO_TRUST_PROXY:-172.18.0.0/16}
+      POST_STUDIO_SECURE_COOKIES: always
+    ports:
+      # Loopback only: the CLI default URL keeps working for agents on this machine.
+      # Never 0.0.0.0, never on the router.
+      - "127.0.0.1:${POST_STUDIO_LOCAL_PORT:-3472}:3472"
+    volumes:
+      - ${POST_STUDIO_DATA_HOST:-./data}:/data
+    networks: [proxy]
+    labels:
+      traefik.enable: "true"
+      traefik.docker.network: proxy
+      # Whole host: 50 req/s per client (ratelimit@file) + HSTS.
+      traefik.http.routers.post-studio.rule: Host(`${POST_STUDIO_DOMAIN:-studio.example.com}`)
+      traefik.http.routers.post-studio.entrypoints: websecure
+      traefik.http.routers.post-studio.tls.certresolver: le
+      traefik.http.routers.post-studio.service: post-studio
+      traefik.http.routers.post-studio.middlewares: ratelimit@file,post-studio-headers
+      # Password POST: 10 a minute per client at the edge (ratelimit-auth@file), on top of the
+      # app's own 5 wrong passwords a minute per client.
+      traefik.http.routers.post-studio-login.rule: Host(`${POST_STUDIO_DOMAIN:-studio.example.com}`) && Path(`/v1/auth/login`)
+      traefik.http.routers.post-studio-login.priority: "1000"
+      traefik.http.routers.post-studio-login.entrypoints: websecure
+      traefik.http.routers.post-studio-login.tls.certresolver: le
+      traefik.http.routers.post-studio-login.service: post-studio
+      traefik.http.routers.post-studio-login.middlewares: ratelimit-auth@file,post-studio-headers
+      traefik.http.middlewares.post-studio-headers.headers.stsSeconds: "31536000"
+      traefik.http.services.post-studio.loadbalancer.server.port: "3472"
+
+networks:
+  proxy:
+    external: true

@@ -1,0 +1,33 @@
+{
+  "id": "mosaic",
+  "name": "Mosaic · Mosaic studio",
+  "lane": "mosaic",
+  "description": "The live Mosaic brand (landing1): ink blue + Alegreya. The current studio lane for daily posts. No footer (removed 2026-10-18).",
+  "sources": [
+    "social-posts/PLAN-DAILY.md §7 Lane specs → Mosaic (paper, ink, muted, accent, tint, support, logo-mark; Alegreya 700/600 headlines 84/92, min 64/72; Alegreya Sans for everything else; no footer)",
+    "social-posts/posts/daily-2026-10-26-tochna-cena/copy.json → layout (headline x 135, first baseline 148, leading 92, size 84)",
+    "check_palette.py has no mosaic lane yet (PLAN-DAILY §10); proposals/social-posts-post-studio.patch adds this palette there"
+  ],
+  "checkPaletteLane": null,
+  "paper": "paper",
+  "accent": "accent",
+  "colors": [
+    { "name": "paper", "hex": "#F6F2EA", "label": "Paper", "source": "PLAN-DAILY §7" },
+    { "name": "ink", "hex": "#1D2129", "label": "Ink", "source": "PLAN-DAILY §7" },
+    { "name": "muted", "hex": "#555A63", "label": "Muted", "source": "PLAN-DAILY §7" },
+    { "name": "accent", "hex": "#23487F", "label": "Ink blue (accent)", "source": "PLAN-DAILY §7 accent (once)", "note": "once per frame, inside the accent object" },
+    { "name": "tint", "hex": "#E2E7EE", "label": "Tint", "source": "PLAN-DAILY §7" },
+    { "name": "support", "hex": "#6E7D95", "label": "Support", "source": "PLAN-DAILY §7" },
+    { "name": "logo-mark", "hex": "#86A6DE", "label": "Logo-mark blue", "source": "PLAN-DAILY §7", "note": "only inside the logo mark" }
+  ],
+  "aliases": { "background": "paper" },
+  "type": [
+    { "name": "headline", "label": "Headline", "font": "Alegreya", "weight": 700, "size": 84, "lineHeight": 1.0952, "fill": "ink", "min": 64, "maxLines": { "square": 3 }, "baseline": { "square": 148 }, "source": "PLAN-DAILY §7: Alegreya 700, 84/92 default (min 64/72); daily-2026-10-26 copy.json layout" },
+    { "name": "headline-600", "label": "Headline (semibold)", "font": "Alegreya", "weight": 600, "size": 84, "lineHeight": 1.0952, "fill": "ink", "min": 64, "source": "PLAN-DAILY §7: Alegreya 700/600 for headlines" },
+    { "name": "sub", "label": "Sub", "font": "Alegreya Sans", "weight": 500, "size": 36, "lineHeight": 1.2778, "fill": "ink", "min": 30, "source": "Face: PLAN-DAILY §7 (Alegreya Sans for everything else). Size assumed from TYPE-SCALE Studio sub 36/46; DESIGN §1.3 minimum 30", "assumed": true },
+    { "name": "kicker", "label": "Kicker", "font": "Alegreya Sans", "weight": 500, "size": 30, "lineHeight": 1.2, "fill": "muted", "min": 30, "source": "Face: PLAN-DAILY §7. Size assumed: DESIGN §1.3 minimum on-image text 30", "assumed": true },
+    { "name": "label", "label": "Label in art", "font": "Alegreya Sans", "weight": 500, "size": 30, "lineHeight": 1.2, "fill": "ink", "min": 30, "source": "Face: PLAN-DAILY §7. Size assumed: DESIGN §1.3 minimum 30", "assumed": true }
+  ],
+  "guides": { "1080x1080": "mosaic/ig-1080", "1080x1350": "lane/li-1350", "1080x1920": "lane/story-1920" },
+  "rules": { "accent": "one accent object per frame; the accent colour only inside it (PLAN-DAILY §7 'accent (once)', DESIGN §1.4)", "flat": "no gradients, filters or blend modes", "footer": "none (Nikola removed the footer on 2026-10-18)" }
+}

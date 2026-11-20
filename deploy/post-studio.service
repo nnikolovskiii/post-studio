@@ -1,0 +1,14 @@
+# RETIRED in Phase 6 (2026-11-09): Post Studio runs as the `post-studio` container
+# (deploy/compose.yaml, restart: unless-stopped) and owns 127.0.0.1:3472 on the server.
+# Do not enable this unit on the server: a second server on the same data dir and port would conflict.
+# Kept only as a reference for a laptop-only setup without Docker.
+[Unit]
+Description=Post Studio API (127.0.0.1:3472), laptop-only, superseded by the container
+
+[Service]
+Environment=POST_STUDIO_DATA=%h/.local/share/post-studio
+ExecStart=%h/workspace/post-studio/apps/cli/bin/pstudio serve
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

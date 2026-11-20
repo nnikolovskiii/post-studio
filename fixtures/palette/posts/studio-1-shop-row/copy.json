@@ -1,0 +1,17 @@
+{
+  "kicker": null,
+  "headline": [
+    {"spans": [{"text": "Веб-сајтови што носат"}]},
+    {"spans": [{"text": "нарачки и термини."}]}
+  ],
+  "headline_fallback": [
+    {"spans": [{"text": "Сајтови што носат"}]},
+    {"spans": [{"text": "нарачки и термини."}]}
+  ],
+  "sub": null,
+  "chip": null,
+  "source": null,
+  "footer": "Web shop · example.com/landing1",
+  "emphasis": null,
+  "linkedin": null
+}

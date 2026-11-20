@@ -1,0 +1,13 @@
+{
+  "kicker": "За мали бизниси во Скопје",
+  "headline": [
+    {"spans": [{"text": "Кодот и доменот"}]},
+    {"spans": [{"text": "се ваши."}]}
+  ],
+  "sub": "Страницата е ваша, не под кирија.",
+  "chip": null,
+  "source": null,
+  "footer": "Web shop · example.com/landing1",
+  "emphasis": null,
+  "linkedin": null
+}

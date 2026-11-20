@@ -1,0 +1,15 @@
+{
+  "kicker": null,
+  "headline": [
+    {"spans": [{"text": "Избирам слика.", "fill": "#FFFCF9"}]},
+    {"spans": [{"text": "Се изразувам.", "fill": "#FFFCF9"}]}
+  ],
+  "sub": null,
+  "chip": null,
+  "source": null,
+  "footer": null,
+  "emphasis": null,
+  "linkedin": null,
+  "labels": ["парк", "цртам"],
+  "_note": "Not composed by tools/compose.py (no template). tools/make_kites4_flavor.py writes these strings straight into post.svg; keep the two in sync."
+}

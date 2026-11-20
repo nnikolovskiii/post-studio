@@ -1,0 +1,13 @@
+Fonts in this folder are subset WOFF2 builds (Latin + Cyrillic, MKD locl kept)
+made from the Google Fonts OFL sources on 2026-10-15.
+
+Bitter-Bold.woff2, Bitter-SemiBold.woff2
+  Copyright 2011 The Bitter Project Authors (https://github.com/solmatas/BitterPro)
+  with Reserved Font Name "Bitter Pro".
+
+SourceSans3-Regular.woff2, SourceSans3-SemiBold.woff2
+  Copyright 2010-2020 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+  Source is a trademark of Adobe in the United States and/or other countries.
+
+Both are licensed under the SIL Open Font License, Version 1.1:
+https://openfontlicense.org

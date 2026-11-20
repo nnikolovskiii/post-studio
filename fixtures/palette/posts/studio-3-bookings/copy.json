@@ -1,0 +1,13 @@
+{
+  "kicker": "За салони, ординации и студија",
+  "headline": [
+    {"spans": [{"text": "Закажување и ноќе,"}]},
+    {"spans": [{"text": "кога сте затворени."}]}
+  ],
+  "sub": "Клиентот бара термин кога му одговара.",
+  "chip": null,
+  "source": null,
+  "footer": "Web shop · example.com/landing1",
+  "emphasis": null,
+  "linkedin": null
+}

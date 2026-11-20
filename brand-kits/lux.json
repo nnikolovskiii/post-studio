@@ -1,0 +1,39 @@
+{
+  "id": "lux",
+  "name": "LUX · Lux Index",
+  "lane": "lux",
+  "description": "demo.example light theme. One red mark per frame, on the subject model's bar or the one number that matters.",
+  "sources": [
+    "social-posts/tools/check_palette.py → LANES[\"lux\"] (the palette and accent this kit must match)",
+    "social-posts/research/DESIGN.md §3.1 Color (from lux-frontend/src/index.css, light theme)",
+    "social-posts/templates/TYPE-SCALE.md → LUX table",
+    "social-posts/templates/lux/ig-1080.svg and li-1080x1350.svg (guides, baselines)"
+  ],
+  "checkPaletteLane": "lux",
+  "paper": "paper",
+  "accent": "mark",
+  "colors": [
+    { "name": "paper", "hex": "#FCFAF6", "label": "Paper", "source": "DESIGN §3.1 --background; check_palette.py paper" },
+    { "name": "card", "hex": "#FEFDFC", "label": "Card", "source": "DESIGN §3.1 --card" },
+    { "name": "surface", "hex": "#F3F0EA", "label": "Surface / ghost track", "source": "DESIGN §3.1 --secondary" },
+    { "name": "border", "hex": "#E2DDD5", "label": "Border", "source": "DESIGN §3.1 --border", "note": "decorative only (1.3:1)" },
+    { "name": "ink", "hex": "#190F0B", "label": "Ink", "source": "DESIGN §3.1 --foreground" },
+    { "name": "muted", "hex": "#655B56", "label": "Muted", "source": "DESIGN §3.1 --muted-foreground" },
+    { "name": "mark", "hex": "#AC1922", "label": "Mark (accent)", "source": "DESIGN §3.1 --mark; check_palette.py accent", "note": "once per frame, inside the accent object" },
+    { "name": "chart-blue", "hex": "#305880", "label": "Chart blue", "source": "DESIGN §3.1 --chart-1" },
+    { "name": "chart-green", "hex": "#3A8357", "label": "Chart green", "source": "DESIGN §3.1 --chart-2", "note": "bars only, not text (4.4:1)" },
+    { "name": "success", "hex": "#17653C", "label": "Success", "source": "DESIGN §3.1 --success" }
+  ],
+  "aliases": { "accent": "mark", "background": "paper" },
+  "type": [
+    { "name": "kicker", "label": "Kicker", "font": "IBM Plex Mono", "weight": 500, "size": 26, "lineHeight": 1.2, "letterSpacing": 1.56, "fill": "muted", "case": "upper", "min": 26, "baseline": { "square": 96, "li": 120 }, "source": "TYPE-SCALE LUX: Plex Mono 500 26, uppercase, letter-spacing 0.06em (= 1.56 px), muted" },
+    { "name": "headline", "label": "Headline", "font": "IBM Plex Sans", "weight": 600, "size": 60, "lineHeight": 1.1333, "fill": "ink", "min": 48, "maxLines": { "square": 2, "li": 3 }, "baseline": { "square": 184, "li": 200 }, "source": "TYPE-SCALE LUX: Plex Sans 600 60/68 (min 48/56), ink; sq ≤ 2 lines, LI ≤ 3" },
+    { "name": "big-number", "label": "Big number", "font": "IBM Plex Mono", "weight": 600, "size": 200, "lineHeight": 1.2, "fill": "ink", "source": "TYPE-SCALE LUX: Plex Mono 600 200 (% at 120), ink or mark" },
+    { "name": "chart-label", "label": "Chart label", "font": "IBM Plex Sans", "weight": 500, "size": 30, "lineHeight": 1.2, "fill": "ink", "min": 28, "source": "TYPE-SCALE LUX: Plex Sans 500 30 (min 28)" },
+    { "name": "chart-value", "label": "Chart value", "font": "IBM Plex Mono", "weight": 500, "size": 30, "lineHeight": 1.2, "fill": "ink", "min": 28, "source": "TYPE-SCALE LUX: Plex Mono 500 30, tabular" },
+    { "name": "source", "label": "Source line", "font": "IBM Plex Sans", "weight": 400, "size": 24, "lineHeight": 1.2, "fill": "muted", "min": 24, "baseline": { "square": 928, "li": 1176 }, "source": "TYPE-SCALE LUX: Plex Sans 400 24, muted" },
+    { "name": "footer", "label": "Footer", "font": "IBM Plex Sans", "weight": 600, "size": 26, "lineHeight": 1.2, "fill": "ink", "min": 24, "baseline": { "square": 1008, "li": 1270 }, "source": "TYPE-SCALE LUX: Plex Sans 600 26, ink; text x 140 / 148" }
+  ],
+  "guides": { "1080x1080": "lux/ig-1080", "1080x1350": "lux/li-1350", "1080x1920": "lane/story-1920" },
+  "rules": { "accent": "one accent object per frame; the accent colour only inside it (DESIGN §1.4)", "flat": "no gradients, filters or blend modes" }
+}

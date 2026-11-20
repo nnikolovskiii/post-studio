@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+<rect id="paper" width="1080" height="1350" fill="#FCFAF6" />
+<g transform="translate(0 135)">
+<g id="art" transform="translate(135 312)"><title>Luna judge top three, snapshot 2026-10-29</title>
+<text id="fig-label" x="0" y="40" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#655B56">generation · % good · Luna judge</text>
+<text id="fig-n" x="0" y="120" font-family="'IBM Plex Mono'" font-weight="600" font-size="96" fill="#190F0B">19</text>
+<text id="fig-n-l" x="0" y="168" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#655B56">models re-scored</text>
+<path d="M0 200H810" stroke="#E2DDD5" stroke-width="2" />
+<text id="strip-label-1" x="0" y="270" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#190F0B">GPT-5.5</text>
+<path d="M352 239H728A4 4 0 0 1 732 243V275A4 4 0 0 1 728 279H352Z" fill="#F3F0EA" />
+<path d="M352 239H615.2A4 4 0 0 1 619.2 243V275A4 4 0 0 1 615.2 279H352Z" fill="#190F0B" />
+<text id="strip-value-1" x="810" y="270" font-family="'IBM Plex Mono'" font-weight="500" font-size="30" fill="#190F0B" text-anchor="end">70%</text>
+<text id="strip-label-2" x="0" y="340" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#190F0B">GPT-6 Luna</text>
+<path d="M352 309H728A4 4 0 0 1 732 313V345A4 4 0 0 1 728 349H352Z" fill="#F3F0EA" />
+<path d="M352 309H596.4A4 4 0 0 1 600.4 313V345A4 4 0 0 1 596.4 349H352Z" fill="#190F0B" />
+<text id="strip-value-2" x="810" y="340" font-family="'IBM Plex Mono'" font-weight="500" font-size="30" fill="#190F0B" text-anchor="end">65%</text>
+<text id="strip-label-3" x="0" y="410" font-family="'IBM Plex Sans'" font-weight="500" font-size="30" fill="#190F0B">GPT-5.4 mini</text>
+<path d="M352 379H728A4 4 0 0 1 732 383V415A4 4 0 0 1 728 419H352Z" fill="#F3F0EA" />
+<path d="M352 379H547.5A4 4 0 0 1 551.5 383V415A4 4 0 0 1 547.5 419H352Z" fill="#AC1922" />
+<text id="strip-value-3" x="810" y="410" font-family="'IBM Plex Mono'" font-weight="500" font-size="30" fill="#AC1922" text-anchor="end">52%</text>
+</g>
+<g id="type">
+  <text id="kicker" x="135" y="96" font-family="'IBM Plex Mono'" font-weight="500" font-size="26" fill="#655B56" letter-spacing="0.06em">LUX INDEX · NEW JUDGE</text>
+  <text id="headline-1" x="135" y="184" font-family="'IBM Plex Sans'" font-weight="600" font-size="56" fill="#190F0B">GPT-6 Luna · high now</text>
+  <text id="headline-2" x="135" y="252" font-family="'IBM Plex Sans'" font-weight="600" font-size="56" fill="#190F0B">judges generation.</text>
+  <text id="source" x="135" y="912" font-family="'IBM Plex Sans'" font-weight="400" font-size="24" fill="#655B56">Source: demo.example · generation · judge GPT-6 Luna · high · 29 Oct 2026</text>
+  <text id="source-2" x="135" y="944" font-family="'IBM Plex Sans'" font-weight="400" font-size="24" fill="#655B56">19 models re-scored · prior GPT-5.2 scores remain separate</text>
+</g>
+<g id="footer">
+  <image id="logo" x="72" y="960" width="56" height="56" href="file:///home/user/workspace/lux-all/lux/lux-frontend/public/logo-light.png" style="mix-blend-mode:multiply" />
+  <text id="footer" x="140" y="1008" font-family="'IBM Plex Sans'" font-weight="600" font-size="26" fill="#190F0B">Lux Index · demo.example</text>
+</g>
+</g>
+</svg>

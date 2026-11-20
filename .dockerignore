@@ -1,0 +1,14 @@
+# Keep the image to what the server, CLI and editor build need.
+**/node_modules
+**/dist
+.git
+test-artifacts
+fixtures
+proposals
+*.md
+!apps/**/*.md
+!packages/**/*.md
+deploy/.env
+**/*.tsbuildinfo
+coverage
+.data
